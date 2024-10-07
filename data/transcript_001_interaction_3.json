@@ -1,0 +1,331 @@
+{
+    "opportunity_id": "001",
+    "interaction_id": "001-3",
+    "transcript": "Jay Mishra: Hi, Alice. This is Jay Mishra from InfiniMeld. How are you today?\n\nAlice Johnson: Hi, Jay. I'm good, thanks. How are you?\n\nJay Mishra: I'm good too, thanks. Um, so, I... I wanted to talk about, um, setting up an in-person demonstration for our data warehouse, uh, capabilities.\n\nAlice Johnson: Oh, yeah. Uh, right. The demonstration.\n\nJay Mishra: Yeah, so, um, do you have a... a date in mind?\n\nAlice Johnson: Um, well... I'm not sure. Our schedule is pretty packed this month.\n\nJay Mishra: Oh, uh, okay. Um, what about next month?\n\nAlice Johnson: Possibly. Let me see... Uh, maybe, like, the second week?\n\nJay Mishra: Uh, yeah, yeah. That... that sounds good, I guess.\n\nAlice Johnson: Okay, so... like, the 10th?\n\nJay Mishra: Yeah, the 10th is, um, fine. Uh, what time works for you?\n\nAlice Johnson: Um, maybe morning? Like, 10 AM?\n\nJay Mishra: Yeah, sure. 10 AM is fine. So, um, what, uh, specifically are you looking to see in the demo?\n\nAlice Johnson: Uh... well, I guess just, you know, how your data warehouse works.\n\nJay Mishra: Right, right. So, um, like, the features? Or, um, something else?\n\nAlice Johnson: Yeah, the features. And maybe some use cases.\n\nJay Mishra: Okay, use cases. Sure. Uh, do you have any, um, specific use cases in mind?\n\nAlice Johnson: Um, I'm not really sure. Maybe something in, like, data integration?\n\nJay Mishra: Data integration, okay. Um, I can... I can prepare something for that.\n\nAlice Johnson: Great. And, um, you said in-person, right? Where are you located?\n\nJay Mishra: Uh, we're in, um, New York. Where are you based?\n\nAlice Johnson: We're in Chicago.\n\nJay Mishra: Oh, okay. Uh, that's... that's a bit of a, um, distance.\n\nAlice Johnson: Yeah, it is. Can you still come down here?\n\nJay Mishra: Uh, yeah, I guess. I mean, I'll have to check with my manager.\n\nAlice Johnson: Alright, just let me know then.\n\nJay Mishra: Sure, um, I'll... I'll do that. Uh, do you have any other questions about the demo?\n\nAlice Johnson: Not really. I mean, I don't think so.\n\nJay Mishra: Okay, uh, cool. Um, I'll email you... um, some details.\n\nAlice Johnson: Alright, sounds good.\n\nJay Mishra: Good, good. Um, so, anything else?\n\nAlice Johnson: No, I think that's it for now.\n\nJay Mishra: Okay, great, um, I'll... I'll talk to you soon then.\n\nAlice Johnson: Sure, thanks, Jay.\n\nJay Mishra: Thank you, Alice. Bye.\n\nAlice Johnson: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi, Alice. This is Jay Mishra from InfiniMeld. How are you today?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi, Jay. I'm good, thanks. How are you?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm good too, thanks. Um, so, I... I wanted to talk about, um, setting up an in-person demonstration for our data warehouse, uh, capabilities."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, yeah. Uh, right. The demonstration."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, so, um, do you have a... a date in mind?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, well... I'm not sure. Our schedule is pretty packed this month."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, uh, okay. Um, what about next month?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Possibly. Let me see... Uh, maybe, like, the second week?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, yeah. That... that sounds good, I guess."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, so... like, the 10th?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, the 10th is, um, fine. Uh, what time works for you?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, maybe morning? Like, 10 AM?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, sure. 10 AM is fine. So, um, what, uh, specifically are you looking to see in the demo?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh... well, I guess just, you know, how your data warehouse works."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. So, um, like, the features? Or, um, something else?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, the features. And maybe some use cases."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, use cases. Sure. Uh, do you have any, um, specific use cases in mind?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, I'm not really sure. Maybe something in, like, data integration?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Data integration, okay. Um, I can... I can prepare something for that."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great. And, um, you said in-person, right? Where are you located?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we're in, um, New York. Where are you based?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We're in Chicago."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, okay. Uh, that's... that's a bit of a, um, distance."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, it is. Can you still come down here?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, I guess. I mean, I'll have to check with my manager."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, just let me know then."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, um, I'll... I'll do that. Uh, do you have any other questions about the demo?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not really. I mean, I don't think so."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, uh, cool. Um, I'll email you... um, some details."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, sounds good."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Good, good. Um, so, anything else?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No, I think that's it for now."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, great, um, I'll... I'll talk to you soon then."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, thanks, Jay."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thank you, Alice. Bye."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        }
+    ]
+}

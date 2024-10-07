@@ -1,0 +1,529 @@
+{
+    "opportunity_id": "012",
+    "interaction_id": "012-1",
+    "transcript": "Jane Smith: Hi Kevin, this is Jane Smith from InfiniMeld. How are you today?\n\nKevin Murphy: Hi Jane, I'm good, thanks. How about you?\n\nJane Smith: I'm good, thanks for asking. So, um, we're supposed to talk about cloud services, right?\n\nKevin Murphy: Yeah, I think that's what we discussed initially. \n\nJane Smith: Okay, um, where do you wanna start?\n\nKevin Murphy: Well, I guess maybe introductions? Or, I don't know. I mean, we've spoken before, so...\n\nJane Smith: Yeah, yeah. So, like, um, I guess you guys are looking for data warehouse solutions in the cloud?\n\nKevin Murphy: Yes, exactly. I remember you saying InfiniMeld does that, right?\n\nJane Smith: Oh, yeah, we totally do that. So, what are your like, um, main concerns?\n\nKevin Murphy: Hmm... probably cost, maybe security, and I guess, uh, scalability. \n\nJane Smith: Oh, okay. So, like, what are you guys currently using?\n\nKevin Murphy: We have some sort of hybrid setup. It's kinda old though.\n\nJane Smith: Uh-huh. So, um, what kind of data are you working with?\n\nKevin Murphy: Well, we have a mix, like, customer data, internal metrics, transaction logs, stuff like that.\n\nJane Smith: Got it. So, you're looking to, um, move all that to the cloud?\n\nKevin Murphy: Yeah, but maybe not all at once. \n\nJane Smith: Right, uh, that's smarter maybe. So, uh, what\u2019s your timeframe for this?\n\nKevin Murphy: Yeah, that's the tricky part. We don't really have a set schedule yet.\n\nJane Smith: Ah, okay. Well, um, what\u2019s your budget?\n\nKevin Murphy: It's kinda flexible, I mean, we don't want to go overboard but we understand we need to invest.\n\nJane Smith: Uh-huh. So, uh, how big is your team?\n\nKevin Murphy: We have a data team of... uh, let me see, about 10 people.\n\nJane Smith: Right, okay. So, um, are there any specific features you, like, need?\n\nKevin Murphy: Well, ease of use would be good. Also, integration with our existing systems would be ideal.\n\nJane Smith: Got it. So, you\u2019re, like, looking for, um, a smooth transition?\n\nKevin Murphy: Yes, a smooth transition would be great.\n\nJane Smith: Okay, um, let me think. So, does your team have, like, cloud experience?\n\nKevin Murphy: Somewhat, but not extensively. We'd probably need some training.\n\nJane Smith: Um, we could, like, provide some training. So, do you, like, have a preferred cloud provider?\n\nKevin Murphy: Not necessarily. We're open to suggestions.\n\nJane Smith: Okay, well, uh, we work with, like, different providers. Um, what\u2019s like, your top priority?\n\nKevin Murphy: Security, I would say.\n\nJane Smith: Right, security is, um, super important. We have, like, really good security.\n\nKevin Murphy: That's good to hear. Can you give me more details?\n\nJane Smith: Uh, yeah, it's like, um, really robust. We use encryption and stuff.\n\nKevin Murphy: Okay, but I mean specifics, like what kind of encryption or compliance standards?\n\nJane Smith: Uh, well, I think it\u2019s, um, like AES and, um, we follow some compliance things.\n\nKevin Murphy: Alright, can you confirm those details?\n\nJane Smith: Sure, I can, like, email them to you.\n\nKevin Murphy: That would be helpful. Thanks.\n\nJane Smith: Yeah, no problem. So, um, anything else you need to know?\n\nKevin Murphy: Maybe, how will the migration process be handled?\n\nJane Smith: Uh, our team will, like, help yours to move the data.\n\nKevin Murphy: Okay, but is there a step-by-step plan or something?\n\nJane Smith: Uh, we have, like, a general plan. I can send you some info on that.\n\nKevin Murphy: That would be good. Also, who will be the point of contact throughout this?\n\nJane Smith: Um, probably me. Or someone else from my team.\n\nKevin Murphy: Alright, it\u2019s good to know who I'm dealing with.\n\nJane Smith: Yeah, totally. So, uh, any other questions?\n\nKevin Murphy: I think, uh, not right now. Just send over the details we talked about.\n\nJane Smith: Will do. So, should we, um, schedule a follow-up call?\n\nKevin Murphy: Yeah, let's do that. Maybe next week?\n\nJane Smith: Sure, I'll, like, send over some times.\n\nKevin Murphy: Great, that works.\n\nJane Smith: Okay, well, it was nice talking to you, Kevin.\n\nKevin Murphy: You too, Jane. Talk soon.\n\nJane Smith: Bye.\n\nKevin Murphy: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Kevin, this is Jane Smith from InfiniMeld. How are you today?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Jane, I'm good, thanks. How about you?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm good, thanks for asking. So, um, we're supposed to talk about cloud services, right?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I think that's what we discussed initially."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, um, where do you wanna start?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, I guess maybe introductions? Or, I don't know. I mean, we've spoken before, so..."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, yeah. So, like, um, I guess you guys are looking for data warehouse solutions in the cloud?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, exactly. I remember you saying InfiniMeld does that, right?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, yeah, we totally do that. So, what are your like, um, main concerns?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm... probably cost, maybe security, and I guess, uh, scalability."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, okay. So, like, what are you guys currently using?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We have some sort of hybrid setup. It's kinda old though."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh-huh. So, um, what kind of data are you working with?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, we have a mix, like, customer data, internal metrics, transaction logs, stuff like that."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Got it. So, you're looking to, um, move all that to the cloud?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, but maybe not all at once."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, uh, that's smarter maybe. So, uh, what\u2019s your timeframe for this?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, that's the tricky part. We don't really have a set schedule yet."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Ah, okay. Well, um, what\u2019s your budget?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It's kinda flexible, I mean, we don't want to go overboard but we understand we need to invest."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh-huh. So, uh, how big is your team?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We have a data team of... uh, let me see, about 10 people."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, okay. So, um, are there any specific features you, like, need?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, ease of use would be good. Also, integration with our existing systems would be ideal."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Got it. So, you\u2019re, like, looking for, um, a smooth transition?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, a smooth transition would be great."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, um, let me think. So, does your team have, like, cloud experience?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Somewhat, but not extensively. We'd probably need some training."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, we could, like, provide some training. So, do you, like, have a preferred cloud provider?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not necessarily. We're open to suggestions."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, well, uh, we work with, like, different providers. Um, what\u2019s like, your top priority?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Security, I would say."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, security is, um, super important. We have, like, really good security."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That's good to hear. Can you give me more details?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, it's like, um, really robust. We use encryption and stuff."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but I mean specifics, like what kind of encryption or compliance standards?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, well, I think it\u2019s, um, like AES and, um, we follow some compliance things."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, can you confirm those details?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I can, like, email them to you."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That would be helpful. Thanks."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, no problem. So, um, anything else you need to know?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe, how will the migration process be handled?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, our team will, like, help yours to move the data."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but is there a step-by-step plan or something?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we have, like, a general plan. I can send you some info on that."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That would be good. Also, who will be the point of contact throughout this?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, probably me. Or someone else from my team."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, it\u2019s good to know who I'm dealing with."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, totally. So, uh, any other questions?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I think, uh, not right now. Just send over the details we talked about."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Will do. So, should we, um, schedule a follow-up call?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, let's do that. Maybe next week?"
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I'll, like, send over some times."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, that works."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, well, it was nice talking to you, Kevin."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "You too, Jane. Talk soon."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Kevin Murphy",
+                "userId": "kevinmurphy@example.com"
+            }
+        }
+    ]
+}

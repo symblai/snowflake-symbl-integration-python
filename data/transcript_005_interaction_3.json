@@ -1,0 +1,376 @@
+{
+    "opportunity_id": "005",
+    "interaction_id": "005-3",
+    "transcript": "David Harris: Hi, Sophia. This is David Harris from InfiniMeld. How are you today?\n\nSophia White: Hi, David. I'm doing alright. Just been busy with some reports. Thanks for calling.\n\nDavid Harris: Good to hear. So, um, did you get a chance to look at the brochure we sent over?\n\nSophia White: Yeah, I glanced through it. It looked\u2026 okay, I guess. Can\u2019t say I understood all of it.\n\nDavid Harris: Oh, okay. Um, anything in particular you didn\u2019t understand?\n\nSophia White: I\u2019m not sure. It just seemed kind of dense. Anyway, I mentioned I\u2019d be interested in a demo session.\n\nDavid Harris: Right, the demo. Let me see\u2026 when would be a good time for you?\n\nSophia White: I have some availability next week. How\u2019s your schedule looking?\n\nDavid Harris: Next week? Uh, I think that might work. Do you have a specific day in mind?\n\nSophia White: Maybe Wednesday or Thursday afternoon? \n\nDavid Harris: Wednesday or\u2026 okay. I\u2019m not sure if our demo specialist is available then, but I\u2019ll check.\n\nSophia White: Alright. Just let me know when you can.\n\nDavid Harris: Of course. So\u2026 did you have any other questions about the brochure?\n\nSophia White: Um, nothing specific off the top of my head. It was mostly about the features.\n\nDavid Harris: Features, right. Our data warehouse solutions, they have a lot of features.\n\nSophia White: Yes, I noticed. Can you give me an example of how it would work for healthcare data?\n\nDavid Harris: Oh, um, well, you can put the data in and then\u2026 it integrates it. You know?\n\nSophia White: Integrates it how? Like, what kind of data?\n\nDavid Harris: Healthcare data, yeah. Patient records, analytics, that kind of thing.\n\nSophia White: That\u2019s pretty broad. Any examples from your other clients?\n\nDavid Harris: I might not have specifics right now, but, uh, I\u2019m sure it\u2019s helpful.\n\nSophia White: It would be useful to see something concrete. Maybe the demo will help with that.\n\nDavid Harris: Yeah, the demo should clear a lot of that up. Yeah.\n\nSophia White: Okay. So, can you confirm the demo time soon?\n\nDavid Harris: Oh, yeah. I\u2019ll get back to you on that. Anything else you need?\n\nSophia White: Not really sure until I see the product in action. The brochure was just a bit too vague.\n\nDavid Harris: Vague? Hmm, okay. I\u2019ll let the team know.\n\nSophia White: So, do you have any pricing information you can share?\n\nDavid Harris: Pricing\u2026 well, it depends. Customizable packages, you know?\n\nSophia White: I see. Can I get a range or something to work with?\n\nDavid Harris: Um, the range varies a lot. We should probably discuss that in the demo.\n\nSophia White: Alright. It\u2019s just that I need to budget for it, you know?\n\nDavid Harris: Yeah, budgeting\u2019s important. I\u2019ll ask about it.\n\nSophia White: Good. Anything else you think I should know right now?\n\nDavid Harris: Not really, um, I guess just get ready for the demo?\n\nSophia White: Sure. Do you need anything else from me?\n\nDavid Harris: No, I think that\u2019s it. Or, wait. Maybe\u2026 nope, that\u2019s it.\n\nSophia White: Okay, then. I\u2019ll wait for your confirmation on the demo time.\n\nDavid Harris: Definitely. I\u2019ll email you soon. Thanks, Sophia.\n\nSophia White: Thank you, David. Talk to you later.\n\nDavid Harris: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi, Sophia. This is David Harris from InfiniMeld. How are you today?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi, David. I'm doing alright. Just been busy with some reports. Thanks for calling."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Good to hear. So, um, did you get a chance to look at the brochure we sent over?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I glanced through it. It looked\u2026 okay, I guess. Can\u2019t say I understood all of it."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, okay. Um, anything in particular you didn\u2019t understand?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I\u2019m not sure. It just seemed kind of dense. Anyway, I mentioned I\u2019d be interested in a demo session."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, the demo. Let me see\u2026 when would be a good time for you?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I have some availability next week. How\u2019s your schedule looking?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Next week? Uh, I think that might work. Do you have a specific day in mind?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe Wednesday or Thursday afternoon?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Wednesday or\u2026 okay. I\u2019m not sure if our demo specialist is available then, but I\u2019ll check."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Just let me know when you can."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Of course. So\u2026 did you have any other questions about the brochure?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, nothing specific off the top of my head. It was mostly about the features."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Features, right. Our data warehouse solutions, they have a lot of features."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, I noticed. Can you give me an example of how it would work for healthcare data?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, um, well, you can put the data in and then\u2026 it integrates it. You know?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Integrates it how? Like, what kind of data?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Healthcare data, yeah. Patient records, analytics, that kind of thing."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That\u2019s pretty broad. Any examples from your other clients?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I might not have specifics right now, but, uh, I\u2019m sure it\u2019s helpful."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It would be useful to see something concrete. Maybe the demo will help with that."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, the demo should clear a lot of that up. Yeah."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. So, can you confirm the demo time soon?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, yeah. I\u2019ll get back to you on that. Anything else you need?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not really sure until I see the product in action. The brochure was just a bit too vague."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Vague? Hmm, okay. I\u2019ll let the team know."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So, do you have any pricing information you can share?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Pricing\u2026 well, it depends. Customizable packages, you know?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I see. Can I get a range or something to work with?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, the range varies a lot. We should probably discuss that in the demo."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. It\u2019s just that I need to budget for it, you know?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, budgeting\u2019s important. I\u2019ll ask about it."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Good. Anything else you think I should know right now?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not really, um, I guess just get ready for the demo?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure. Do you need anything else from me?"
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No, I think that\u2019s it. Or, wait. Maybe\u2026 nope, that\u2019s it."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, then. I\u2019ll wait for your confirmation on the demo time."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Definitely. I\u2019ll email you soon. Thanks, Sophia."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thank you, David. Talk to you later."
+            },
+            "from": {
+                "name": "Sophia White",
+                "userId": "sophiawhite@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        }
+    ]
+}

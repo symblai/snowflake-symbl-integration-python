@@ -1,0 +1,682 @@
+{
+    "opportunity_id": "013",
+    "interaction_id": "013-2",
+    "transcript": "Mark Thompson: Hi, Emily. This is Mark Thompson from InfiniMeld. How are you today?\n\nEmily Stone: Oh, hi Mark. I'm good, thanks. How are you?\n\nMark Thompson: I'm good, thanks. Glad to hear you're doing well. So, um, I think we were going to discuss, uh, blockchain implementation or something?\n\nEmily Stone: Yeah, yeah, right. We want to, uh, start implementing blockchain technology, and, um, I guess we just need to figure out the best way to, you know, get started.\n\nMark Thompson: Yes, um, okay. So, blockchain, huh?\n\nEmily Stone: Yes, blockchain.\n\nMark Thompson: Um, so, what exactly do you want to do with, uh, blockchain?\n\nEmily Stone: We want to, you know, use it to secure our data, and, uh, possibly for transactions. We've been looking into different, um, options.\n\nMark Thompson: Right, right. Okay. Um, so, do you have any, uh, specific requirements or are you just, you know, exploring options?\n\nEmily Stone: Well, we need it to be, you know, really secure. And, uh, we also need it to, uh, handle, uh, large amounts of data smoothly.\n\nMark Thompson: Okay, secure and smooth. Got it. Um, so, our data warehouse solutions are really good. We, um, have some really secure features.\n\nEmily Stone: Uh, okay. Uh, so, how would that, uh, work with blockchain?\n\nMark Thompson: Well, blockchain is pretty secure, you know? It's, um, well-known for that.\n\nEmily Stone: Yeah, I know that part. But how does your, uh, solution, like, specifically help with it?\n\nMark Thompson: Oh, right. Um, well, we have, um, things like robust encryption and stuff. That's pretty good for blockchain.\n\nEmily Stone: Uh-huh. Uh, can you give me an example, maybe?\n\nMark Thompson: An example of, um, encryption?\n\nEmily Stone: No, I mean, how your solution, like, integrates with blockchain.\n\nMark Thompson: Oh, right. Um, you see, once you have blockchain, our, uh, data warehouse can, um, you know, store the data efficiently.\n\nEmily Stone: Alright. But, uh, what about the actual, um, implementation part?\n\nMark Thompson: Oh, implementation. Right. Um, so, we, uh, we have some tools that, um, help with that.\n\nEmily Stone: Tools for...the blockchain?\n\nMark Thompson: Um, yeah. We have, like, dashboards and stuff. They help you monitor things.\n\nEmily Stone: Okay, but what about starting the blockchain?\n\nMark Thompson: Hmm. Right. So, uh, to start, you need to, uh, set it up and, um, make sure everything's, uh, ready.\n\nEmily Stone: Okay, and how do we do that?\n\nMark Thompson: Well, so, um, our team can, like, guide you with that.\n\nEmily Stone: Great, so what does the process look like?\n\nMark Thompson: Um, you know, the usual. You set up the nodes and, um, our team helps monitor them.\n\nEmily Stone: So, you help us with the nodes? Like, what specifically?\n\nMark Thompson: Um, well, setting them up and, um, you know, making sure they're working.\n\nEmily Stone: Okay, but do you provide more, like, technical support?\n\nMark Thompson: Yeah, our team is pretty good at, uh, technical stuff.\n\nEmily Stone: Alright, how will we integrate our current data?\n\nMark Thompson: Um, we have migration tools. They're useful for, uh, moving data around.\n\nEmily Stone: Can you, uh, explain more about these tools?\n\nMark Thompson: Well, they're, you know, like tools. They move data from one place to another.\n\nEmily Stone: I need more specifics. How does it work?\n\nMark Thompson: Um, you start with, um, exporting data and then, um, importing it into our system.\n\nEmily Stone: And it's really secure during this transfer?\n\nMark Thompson: Definitely, we, um, use encryption and stuff.\n\nEmily Stone: What about downtime? Will there be any during the migration?\n\nMark Thompson: Um, well, there's usually some, uh, downtime but, um, we try to keep it low.\n\nEmily Stone: \"Some\" downtime? \n\nMark Thompson: Yeah, just a bit. Not too much, I think.\n\nEmily Stone: That sounds vague. Can you be more specific?\n\nMark Thompson: Um, it varies, you know? Depends on data size.\n\nEmily Stone: Interesting. We can't afford much downtime.\n\nMark Thompson: Right, right. We'll keep it, um, minimal.\n\nEmily Stone: How minimal is \"minimal\"?\n\nMark Thompson: Well, you know, like, as little as possible.\n\nEmily Stone: Exactly how little?\n\nMark Thompson: Um, a few hours, maybe? It's hard to say exactly.\n\nEmily Stone: Hmm. That's not ideal. What about costs?\n\nMark Thompson: Oh, costs? Uh, right. We have various pricing plans. They're, um, flexible.\n\nEmily Stone: Can you break them down?\n\nMark Thompson: Um, sure. We have, like, monthly and annual plans.\n\nEmily Stone: And those cost?\n\nMark Thompson: Depends on, um, factors like data size and, um, features.\n\nEmily Stone: Okay, and how do these play into blockchain?\n\nMark Thompson: Well, um, blockchain sometimes comes with extra costs.\n\nEmily Stone: Extra costs?\n\nMark Thompson: Yeah, like, um, maintenance and stuff.\n\nEmily Stone: So, I'd need to pay for maintenance separately?\n\nMark Thompson: Could be included, depending on the plan.\n\nEmily Stone: That sounds a bit unclear. Could you email me information?\n\nMark Thompson: Sure, I can send over, um, some details.\n\nEmily Stone: When can I expect that?\n\nMark Thompson: Um, soon. Maybe by end of the day.\n\nEmily Stone: Alright, I will look out for that.\n\nMark Thompson: Okay, great. Um, anything else?\n\nEmily Stone: I think that covers it for now.\n\nMark Thompson: Okay, talk to you later then.\n\nEmily Stone: Bye.\n\nMark Thompson: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi, Emily. This is Mark Thompson from InfiniMeld. How are you today?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, hi Mark. I'm good, thanks. How are you?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm good, thanks. Glad to hear you're doing well. So, um, I think we were going to discuss, uh, blockchain implementation or something?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, yeah, right. We want to, uh, start implementing blockchain technology, and, um, I guess we just need to figure out the best way to, you know, get started."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, um, okay. So, blockchain, huh?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, blockchain."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, so, what exactly do you want to do with, uh, blockchain?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We want to, you know, use it to secure our data, and, uh, possibly for transactions. We've been looking into different, um, options."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. Okay. Um, so, do you have any, uh, specific requirements or are you just, you know, exploring options?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, we need it to be, you know, really secure. And, uh, we also need it to, uh, handle, uh, large amounts of data smoothly."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, secure and smooth. Got it. Um, so, our data warehouse solutions are really good. We, um, have some really secure features."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, okay. Uh, so, how would that, uh, work with blockchain?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, blockchain is pretty secure, you know? It's, um, well-known for that."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I know that part. But how does your, uh, solution, like, specifically help with it?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, right. Um, well, we have, um, things like robust encryption and stuff. That's pretty good for blockchain."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh-huh. Uh, can you give me an example, maybe?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "An example of, um, encryption?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No, I mean, how your solution, like, integrates with blockchain."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, right. Um, you see, once you have blockchain, our, uh, data warehouse can, um, you know, store the data efficiently."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. But, uh, what about the actual, um, implementation part?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, implementation. Right. Um, so, we, uh, we have some tools that, um, help with that."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Tools for...the blockchain?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, yeah. We have, like, dashboards and stuff. They help you monitor things."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but what about starting the blockchain?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm. Right. So, uh, to start, you need to, uh, set it up and, um, make sure everything's, uh, ready."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, and how do we do that?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, so, um, our team can, like, guide you with that."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, so what does the process look like?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, you know, the usual. You set up the nodes and, um, our team helps monitor them."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So, you help us with the nodes? Like, what specifically?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, well, setting them up and, um, you know, making sure they're working."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but do you provide more, like, technical support?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, our team is pretty good at, uh, technical stuff."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, how will we integrate our current data?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, we have migration tools. They're useful for, uh, moving data around."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you, uh, explain more about these tools?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, they're, you know, like tools. They move data from one place to another."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I need more specifics. How does it work?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, you start with, um, exporting data and then, um, importing it into our system."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And it's really secure during this transfer?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Definitely, we, um, use encryption and stuff."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What about downtime? Will there be any during the migration?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, well, there's usually some, uh, downtime but, um, we try to keep it low."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "\"Some\" downtime?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, just a bit. Not too much, I think."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That sounds vague. Can you be more specific?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, it varies, you know? Depends on data size."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Interesting. We can't afford much downtime."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. We'll keep it, um, minimal."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "How minimal is \"minimal\"?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, you know, like, as little as possible."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Exactly how little?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, a few hours, maybe? It's hard to say exactly."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm. That's not ideal. What about costs?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, costs? Uh, right. We have various pricing plans. They're, um, flexible."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you break them down?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, sure. We have, like, monthly and annual plans."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And those cost?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Depends on, um, factors like data size and, um, features."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, and how do these play into blockchain?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, um, blockchain sometimes comes with extra costs."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Extra costs?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, like, um, maintenance and stuff."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So, I'd need to pay for maintenance separately?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Could be included, depending on the plan."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That sounds a bit unclear. Could you email me information?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I can send over, um, some details."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "When can I expect that?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, soon. Maybe by end of the day."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, I will look out for that."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, great. Um, anything else?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I think that covers it for now."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, talk to you later then."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        }
+    ]
+}

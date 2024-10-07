@@ -1,0 +1,646 @@
+{
+    "opportunity_id": "015",
+    "interaction_id": "015-3",
+    "transcript": "David Harris: Hi Sarah, this is David Harris from InfiniMeld. How are you doing today?\n\nSarah Bell: Oh, hi David. I'm alright, thanks. Yourself?\n\nDavid Harris: I'm doing okay, I guess. So, uh, I think we were supposed to talk about the demo?\n\nSarah Bell: Yeah, I think so. We were interested in getting a demo of your data warehouse solutions.\n\nDavid Harris: Right, right. So, um, when would you be available for that?\n\nSarah Bell: Maybe sometime next week? I'm not really sure.\n\nDavid Harris: Um, okay. I think we can work something out for next week. \n\nSarah Bell: Good. So, what kind of demo do you guys usually give?\n\nDavid Harris: Uh, it varies, you know? Depends on what you need.\n\nSarah Bell: Well, what do most of your clients ask for?\n\nDavid Harris: Oh, lots of different things, really. Hard to say.\n\nSarah Bell: Hmm. Can you tell me a bit more about what your demo covers?\n\nDavid Harris: Um, yeah, sure. We, uh, show how our data warehouse works and, um, stuff like that. \n\nSarah Bell: Okay. Anything specific that might be relevant to MediaTech Studios?\n\nDavid Harris: Uh, well, I mean, we're good at a lot of things. What are you looking for exactly?\n\nSarah Bell: We need something that can handle large volumes of media files and data analytics.\n\nDavid Harris: Right, right. We can do that. Not a problem.\n\nSarah Bell: Could you give me some details on the setup and features?\n\nDavid Harris: Uh, yeah, our setup is, you know, pretty straightforward. Features are good too.\n\nSarah Bell: That\u2019s not very specific.\n\nDavid Harris: Oh, uh, sorry. We have, like, good storage options and analysis tools.\n\nSarah Bell: Alright, can we maybe see a report in the demo?\n\nDavid Harris: A report? Uh, sure, I think we can put that in the demo.\n\nSarah Bell: Okay, that's good to hear. What about integration with existing systems?\n\nDavid Harris: We, uh, do some integrations, yeah.\n\nSarah Bell: Some integrations? Which ones exactly?\n\nDavid Harris: Uh, the usual ones, I think. Like, common databases and stuff.\n\nSarah Bell: I see. What\u2019s the timeline for implementation?\n\nDavid Harris: Oh, that depends. On a lot of things.\n\nSarah Bell: Alright, can you give me a ballpark figure?\n\nDavid Harris: Couple of months, maybe? Sometimes less, sometimes more.\n\nSarah Bell: Uh-huh...okay. How about the pricing?\n\nDavid Harris: Pricing, oh, that\u2019s kind of, um, variable. Depends on what you need.\n\nSarah Bell: Do you have a pricing guide or something?\n\nDavid Harris: Let me see...I think we might have something. I will have to check.\n\nSarah Bell: Alright, please do. Are support services included?\n\nDavid Harris: Support? Yes, we, uh, do support. \n\nSarah Bell: What kind of support is it?\n\nDavid Harris: Uh, normal support, I guess. Like, help when you need it.\n\nSarah Bell: Hmm, do you offer 24/7 support?\n\nDavid Harris: Sometimes, I think. Depends on the plan.\n\nSarah Bell: Can we talk about different plans then?\n\nDavid Harris: Uh, well, not right now. I mean, I'd have to check.\n\nSarah Bell: Can you get that information for our next call?\n\nDavid Harris: Sure, I\u2019ll, uh, see what I can do.\n\nSarah Bell: Okay, how would the demo be conducted? Is it a live demo?\n\nDavid Harris: Usually, yeah. But sometimes recorded. Depends on what's easier.\n\nSarah Bell: We prefer live demos. Is that possible?\n\nDavid Harris: Uh, yeah, I think we can arrange that.\n\nSarah Bell: Who will be conducting the demo?\n\nDavid Harris: Hmm, probably someone from our team. I'm not sure who yet.\n\nSarah Bell: Alright. Can you get back to me with a confirmed date and time?\n\nDavid Harris: Yes, I can do that. \n\nSarah Bell: Great. We\u2019re also wondering about scalability. How does InfiniMeld handle that?\n\nDavid Harris: Oh, we, uh, do scalable stuff. Like, you can add more storage.\n\nSarah Bell: Is it flexible in terms of resources?\n\nDavid Harris: I believe so, yes. \n\nSarah Bell: Can you maybe send us some detailed documentation?\n\nDavid Harris: Uh, I'll see if I can find some and send it to you.\n\nSarah Bell: Could you also include client references?\n\nDavid Harris: Uh, I think so. We have a few. \n\nSarah Bell: How soon can you get those to us?\n\nDavid Harris: Let me see. Maybe sometime this week? \n\nSarah Bell: That would be helpful.\n\nDavid Harris: Cool, I'll work on that.\n\nSarah Bell: Thank you. Anything else we should prepare for the demo?\n\nDavid Harris: Um, not really sure. Maybe have your questions ready.\n\nSarah Bell: Alright, we\u2019ll do that. Thanks, David.\n\nDavid Harris: No problem. Talk to you soon.\n\nSarah Bell: Bye.\n\nDavid Harris: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Sarah, this is David Harris from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, hi David. I'm alright, thanks. Yourself?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm doing okay, I guess. So, uh, I think we were supposed to talk about the demo?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I think so. We were interested in getting a demo of your data warehouse solutions."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. So, um, when would you be available for that?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe sometime next week? I'm not really sure."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, okay. I think we can work something out for next week."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Good. So, what kind of demo do you guys usually give?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, it varies, you know? Depends on what you need."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, what do most of your clients ask for?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, lots of different things, really. Hard to say."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm. Can you tell me a bit more about what your demo covers?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, yeah, sure. We, uh, show how our data warehouse works and, um, stuff like that."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Anything specific that might be relevant to MediaTech Studios?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, well, I mean, we're good at a lot of things. What are you looking for exactly?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We need something that can handle large volumes of media files and data analytics."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. We can do that. Not a problem."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Could you give me some details on the setup and features?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, our setup is, you know, pretty straightforward. Features are good too."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That\u2019s not very specific."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, uh, sorry. We have, like, good storage options and analysis tools."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, can we maybe see a report in the demo?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "A report? Uh, sure, I think we can put that in the demo."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, that's good to hear. What about integration with existing systems?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We, uh, do some integrations, yeah."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Some integrations? Which ones exactly?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, the usual ones, I think. Like, common databases and stuff."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I see. What\u2019s the timeline for implementation?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, that depends. On a lot of things."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, can you give me a ballpark figure?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Couple of months, maybe? Sometimes less, sometimes more."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh-huh...okay. How about the pricing?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Pricing, oh, that\u2019s kind of, um, variable. Depends on what you need."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Do you have a pricing guide or something?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Let me see...I think we might have something. I will have to check."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, please do. Are support services included?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support? Yes, we, uh, do support."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What kind of support is it?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, normal support, I guess. Like, help when you need it."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, do you offer 24/7 support?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sometimes, I think. Depends on the plan."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can we talk about different plans then?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, well, not right now. I mean, I'd have to check."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you get that information for our next call?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I\u2019ll, uh, see what I can do."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, how would the demo be conducted? Is it a live demo?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Usually, yeah. But sometimes recorded. Depends on what's easier."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We prefer live demos. Is that possible?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, I think we can arrange that."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Who will be conducting the demo?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, probably someone from our team. I'm not sure who yet."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Can you get back to me with a confirmed date and time?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, I can do that."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great. We\u2019re also wondering about scalability. How does InfiniMeld handle that?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, we, uh, do scalable stuff. Like, you can add more storage."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Is it flexible in terms of resources?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I believe so, yes."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you maybe send us some detailed documentation?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I'll see if I can find some and send it to you."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Could you also include client references?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I think so. We have a few."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "How soon can you get those to us?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Let me see. Maybe sometime this week?"
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That would be helpful."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Cool, I'll work on that."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thank you. Anything else we should prepare for the demo?"
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, not really sure. Maybe have your questions ready."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, we\u2019ll do that. Thanks, David."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No problem. Talk to you soon."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Sarah Bell",
+                "userId": "sarahbell@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "David Harris",
+                "userId": "davidharris@example.com"
+            }
+        }
+    ]
+}

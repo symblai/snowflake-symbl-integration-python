@@ -1,3 +1,7 @@
 requests==2.32.3
-python-dotenv==1.0.1
 snowflake-connector-python==3.12.2
+snowflake==0.12.1
+tqdm==4.66.5
+altair==5.4.1
+pandas==2.2.3
+streamlit==1.38.0

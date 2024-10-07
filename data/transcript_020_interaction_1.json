@@ -1,0 +1,466 @@
+{
+    "opportunity_id": "020",
+    "interaction_id": "020-1",
+    "transcript": "Olivia Gray: Hi Robert, this is Olivia Gray from InfiniMeld. How are you doing today?\n\nRobert Clark: Oh, uh, hi Olivia, I'm alright, thanks. Uh, what was the name of your company again?\n\nOlivia Gray: It's InfiniMeld, we're a data warehouse company. You mentioned you were exploring logistics solutions and might be interested in a demo?\n\nRobert Clark: Yeah, um, maybe. We are looking at several options, you know.\n\nOlivia Gray: Oh, okay. So, what exactly are you looking for in a logistics solution?\n\nRobert Clark: Well, uh, efficiency, I guess. Maybe better integration?\n\nOlivia Gray: Right, efficiency and integration. That's good. Our platform can really help you with that.\n\nRobert Clark: Uh-huh.\n\nOlivia Gray: So, would you be, like, interested in scheduling a demo, or...?\n\nRobert Clark: Hmm, we might be. Can you tell me, like, more about what you do?\n\nOlivia Gray: Sure, we, um, we do data warehousing. It can really help streamline your logistics processes.\n\nRobert Clark: Hmm, interesting. Can you explain a bit more?\n\nOlivia Gray: Well, uh, you know, we manage data and... make it easier to access? It really helps with logistics.\n\nRobert Clark: Uh, right. Access to data. That sounds useful, maybe.\n\nOlivia Gray: Exactly. So, um, when are you thinking of implementing a new solution?\n\nRobert Clark: Oh, no specific timeline. We're just exploring.\n\nOlivia Gray: Got it. So, you said earlier you're interested in integration. Do you have any systems you need to integrate with?\n\nRobert Clark: Well, we have our own systems, but I'm not sure which ones would need integration yet.\n\nOlivia Gray: Okay, got it. You know, we can integrate with a lot of systems.\n\nRobert Clark: Alright, that's good to know.\n\nOlivia Gray: Are there any specific pain points you're facing right now?\n\nRobert Clark: Uh, pain points? Not sure. Just thinking efficiency, I suppose.\n\nOlivia Gray: Efficiency, yes. We're very good at that. Have you seen our website?\n\nRobert Clark: I'm not sure. Maybe someone in our team has looked at it.\n\nOlivia Gray: Right. Well, the information there is pretty detailed. \n\nRobert Clark: Okay, that's good. I should check it then.\n\nOlivia Gray: Do you want me to send over some links?\n\nRobert Clark: Uh, sure, I suppose that would be helpful.\n\nOlivia Gray: Great, I'll do that. So, um, have you used a data warehouse solution before?\n\nRobert Clark: I think we might have looked into one a few years ago, but nothing solid.\n\nOlivia Gray: Interesting. So, would you say you're more interested in the data management aspect?\n\nRobert Clark: Maybe. I'm not entirely sure what our priority is yet.\n\nOlivia Gray: Okay, no worries. Would you benefit from a tailored demo?\n\nRobert Clark: Probably. It seems like it could be useful.\n\nOlivia Gray: Alright, so, when would be a good time for you?\n\nRobert Clark: Hmm, I don\u2019t know. Maybe sometime next week?\n\nOlivia Gray: Next week sounds good. Is there a specific day?\n\nRobert Clark: Not really. We have meetings all week.\n\nOlivia Gray: Alright, got it. So, maybe Monday? Or Tuesday?\n\nRobert Clark: Tuesday might work, maybe in the afternoon.\n\nOlivia Gray: Okay, Tuesday afternoon. Is there a specific time?\n\nRobert Clark: Not sure, we have a flexible schedule.\n\nOlivia Gray: Alright, so, do you need me to send a calendar invite?\n\nRobert Clark: Uh, yeah, that might help.\n\nOlivia Gray: Great, I'll send that over. Anything else you want to know?\n\nRobert Clark: Hmm, cannot think of anything right now.\n\nOlivia Gray: Okay, well, if you do, feel free to reach out.\n\nRobert Clark: Sure thing, thanks Olivia.\n\nOlivia Gray: Thanks, Robert. Talk to you soon.\n\nRobert Clark: Okay, bye.\n\nOlivia Gray: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Robert, this is Olivia Gray from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, uh, hi Olivia, I'm alright, thanks. Uh, what was the name of your company again?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It's InfiniMeld, we're a data warehouse company. You mentioned you were exploring logistics solutions and might be interested in a demo?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, um, maybe. We are looking at several options, you know."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, okay. So, what exactly are you looking for in a logistics solution?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, uh, efficiency, I guess. Maybe better integration?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, efficiency and integration. That's good. Our platform can really help you with that."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh-huh."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So, would you be, like, interested in scheduling a demo, or...?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, we might be. Can you tell me, like, more about what you do?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, we, um, we do data warehousing. It can really help streamline your logistics processes."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, interesting. Can you explain a bit more?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, uh, you know, we manage data and... make it easier to access? It really helps with logistics."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, right. Access to data. That sounds useful, maybe."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Exactly. So, um, when are you thinking of implementing a new solution?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, no specific timeline. We're just exploring."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Got it. So, you said earlier you're interested in integration. Do you have any systems you need to integrate with?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, we have our own systems, but I'm not sure which ones would need integration yet."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, got it. You know, we can integrate with a lot of systems."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, that's good to know."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Are there any specific pain points you're facing right now?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, pain points? Not sure. Just thinking efficiency, I suppose."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Efficiency, yes. We're very good at that. Have you seen our website?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm not sure. Maybe someone in our team has looked at it."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. Well, the information there is pretty detailed."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, that's good. I should check it then."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Do you want me to send over some links?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, sure, I suppose that would be helpful."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, I'll do that. So, um, have you used a data warehouse solution before?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I think we might have looked into one a few years ago, but nothing solid."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Interesting. So, would you say you're more interested in the data management aspect?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe. I'm not entirely sure what our priority is yet."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, no worries. Would you benefit from a tailored demo?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Probably. It seems like it could be useful."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, so, when would be a good time for you?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, I don\u2019t know. Maybe sometime next week?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Next week sounds good. Is there a specific day?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not really. We have meetings all week."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, got it. So, maybe Monday? Or Tuesday?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Tuesday might work, maybe in the afternoon."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, Tuesday afternoon. Is there a specific time?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not sure, we have a flexible schedule."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, so, do you need me to send a calendar invite?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, that might help."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, I'll send that over. Anything else you want to know?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, cannot think of anything right now."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, well, if you do, feel free to reach out."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure thing, thanks Olivia."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thanks, Robert. Talk to you soon."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, bye."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        }
+    ]
+}

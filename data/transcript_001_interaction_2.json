@@ -1,0 +1,520 @@
+{
+    "opportunity_id": "001",
+    "interaction_id": "001-2",
+    "transcript": "Jay Mishra: Hi Alice, this is Jay from InfiniMeld. How are you today?\n\nAlice Johnson: Hi Jay, I'm good, thanks. How about you?\n\nJay Mishra: I'm doing well, thanks. So, you wanted to discuss our product benefits?\n\nAlice Johnson: Yes, I'm interested. Can you give me more details?\n\nJay Mishra: Sure, sure. Uh, InfiniMeld offers several, um, key things. Like, it integrates data, you know?\n\nAlice Johnson: Integrates data? How exactly does that work?\n\nJay Mishra: Uh, well, it, like, pulls data together from different sources. You know, like, um, databases and stuff.\n\nAlice Johnson: Okay, but how does it do that? I mean, what's the process?\n\nJay Mishra: Oh, the process? We, uh, we have an engine or something... it integrates through... various means?\n\nAlice Johnson: Various means? Can you clarify?\n\nJay Mishra: Uh, yeah, we use... APIs, and, um, some other things to grab the data.\n\nAlice Johnson: Can you tell me more about your API capabilities?\n\nJay Mishra: Um, yes, our API... it's robust. It, uh, supports many types of data.\n\nAlice Johnson: Like which types?\n\nJay Mishra: Oh, uh, things like, um, structured and unstructured data? I think.\n\nAlice Johnson: Can you provide an example?\n\nJay Mishra: An example? Oh, uh, maybe like... JSON files or, um, SQL databases?\n\nAlice Johnson: Okay. That's somewhat helpful. What about data security?\n\nJay Mishra: Security? Oh, we take that very seriously, Alice.\n\nAlice Johnson: Can you elaborate?\n\nJay Mishra: Uh, we have, um, encryption, I think, yeah, and, uh, some other security protocols?\n\nAlice Johnson: What kind of encryption?\n\nJay Mishra: Uh, the standard, you know, like AES or something?\n\nAlice Johnson: AES? Got it. How about compliance, do you adhere to any specific standards?\n\nJay Mishra: Oh, compliance, right. We, um, are compliant with several, like, GDPR or something.\n\nAlice Johnson: Something? That\u2019s pretty important. Can you list the specifics?\n\nJay Mishra: Uh, I'd have to check and get back to you on that.\n\nAlice Johnson: Alright. What makes InfiniMeld different from other data warehouse solutions?\n\nJay Mishra: Different? Um, we are... fast? And, uh, maybe more efficient?\n\nAlice Johnson: Fast and efficient? How so?\n\nJay Mishra: Uh, our engine processes data quickly... and efficiently, you know?\n\nAlice Johnson: Could you provide some metrics or comparisons?\n\nJay Mishra: Oh, metrics, um, I don't have those on hand right now.\n\nAlice Johnson: Alright. Can you speak about any particular customer case that demonstrates these benefits?\n\nJay Mishra: Uh, we have customers who are very satisfied. I can't think of a specific one right now, though.\n\nAlice Johnson: Hmm, okay. How about pricing? Can you give me an idea?\n\nJay Mishra: Pricing, uh, it's very competitive. Depends on your needs, probably?\n\nAlice Johnson: Competitive? Can you be more specific?\n\nJay Mishra: Uh, we have different tiers. I'll need to send you those details later.\n\nAlice Johnson: Okay, I\u2019ll wait for that. What kind of support do you offer?\n\nJay Mishra: Support? Oh, we have, you know, email and maybe phone support?\n\nAlice Johnson: Maybe phone support? Anything else?\n\nJay Mishra: Uh, we might have chat support, not sure.\n\nAlice Johnson: Hmm. Do you have an SLA?\n\nJay Mishra: SLA, yes, we have one. But I\u2019d need to get the details for you.\n\nAlice Johnson: Okay. What about scalability?\n\nJay Mishra: Scalability? Um, it's quite scalable. We can handle large amounts of data.\n\nAlice Johnson: Till how much?\n\nJay Mishra: Uh, millions, maybe billions of records?\n\nAlice Johnson: Okay, that's noted. Can we schedule a demo?\n\nJay Mishra: A demo? Oh, sure, let me get back to you on that schedule.\n\nAlice Johnson: Alright, how soon can you get back to me?\n\nJay Mishra: Maybe by tomorrow or... the day after?\n\nAlice Johnson: Okay, I'll look out for your email. Thanks for the info, Jay.\n\nJay Mishra: Sure thing, Alice. Thanks for your interest in InfiniMeld.\n\nAlice Johnson: Bye.\n\nJay Mishra: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Alice, this is Jay from InfiniMeld. How are you today?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Jay, I'm good, thanks. How about you?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm doing well, thanks. So, you wanted to discuss our product benefits?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, I'm interested. Can you give me more details?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, sure. Uh, InfiniMeld offers several, um, key things. Like, it integrates data, you know?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Integrates data? How exactly does that work?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, well, it, like, pulls data together from different sources. You know, like, um, databases and stuff."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but how does it do that? I mean, what's the process?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, the process? We, uh, we have an engine or something... it integrates through... various means?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Various means? Can you clarify?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, we use... APIs, and, um, some other things to grab the data."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you tell me more about your API capabilities?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, yes, our API... it's robust. It, uh, supports many types of data."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Like which types?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, uh, things like, um, structured and unstructured data? I think."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you provide an example?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "An example? Oh, uh, maybe like... JSON files or, um, SQL databases?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. That's somewhat helpful. What about data security?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Security? Oh, we take that very seriously, Alice."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you elaborate?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we have, um, encryption, I think, yeah, and, uh, some other security protocols?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What kind of encryption?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, the standard, you know, like AES or something?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "AES? Got it. How about compliance, do you adhere to any specific standards?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, compliance, right. We, um, are compliant with several, like, GDPR or something."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Something? That\u2019s pretty important. Can you list the specifics?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I'd have to check and get back to you on that."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. What makes InfiniMeld different from other data warehouse solutions?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Different? Um, we are... fast? And, uh, maybe more efficient?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Fast and efficient? How so?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, our engine processes data quickly... and efficiently, you know?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Could you provide some metrics or comparisons?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, metrics, um, I don't have those on hand right now."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Can you speak about any particular customer case that demonstrates these benefits?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we have customers who are very satisfied. I can't think of a specific one right now, though."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, okay. How about pricing? Can you give me an idea?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Pricing, uh, it's very competitive. Depends on your needs, probably?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Competitive? Can you be more specific?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we have different tiers. I'll need to send you those details later."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, I\u2019ll wait for that. What kind of support do you offer?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support? Oh, we have, you know, email and maybe phone support?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe phone support? Anything else?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, we might have chat support, not sure."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm. Do you have an SLA?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "SLA, yes, we have one. But I\u2019d need to get the details for you."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. What about scalability?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Scalability? Um, it's quite scalable. We can handle large amounts of data."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Till how much?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, millions, maybe billions of records?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, that's noted. Can we schedule a demo?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "A demo? Oh, sure, let me get back to you on that schedule."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, how soon can you get back to me?"
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe by tomorrow or... the day after?"
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, I'll look out for your email. Thanks for the info, Jay."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure thing, Alice. Thanks for your interest in InfiniMeld."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Alice Johnson",
+                "userId": "alicejohnson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Jay Mishra",
+                "userId": "jaymishra@example.com"
+            }
+        }
+    ]
+}

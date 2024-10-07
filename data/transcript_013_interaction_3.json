@@ -1,0 +1,403 @@
+{
+    "opportunity_id": "013",
+    "interaction_id": "013-3",
+    "transcript": "Mark Thompson: Hi Emily, this is Mark from InfiniMeld. How are you?\n\nEmily Stone: Hi Mark. I'm good, thanks. How are you?\n\nMark Thompson: I'm doing well, thanks. So, um, we had the online demo the other day. \n\nEmily Stone: Yes, we did. It was...interesting.\n\nMark Thompson: Yeah, interesting. Did you, uh, have any questions about it?\n\nEmily Stone: Um, I think some parts were a bit unclear about how the integration actually works.\n\nMark Thompson: Oh, okay. Um, what parts specifically?\n\nEmily Stone: Well, the data flow, mostly. How does it connect with our existing systems?\n\nMark Thompson: Right. Uh, so we have this thing where... uh, it integrates. With the system.\n\nEmily Stone: Yes, but how exactly does it integrate? What are the steps?\n\nMark Thompson: Right. So, um, there are several steps. I think. \n\nEmily Stone: Do you have those steps documented?\n\nMark Thompson: Um, well, I\u2019m sure we do somewhere, but I can check that for you.\n\nEmily Stone: Okay, that would be helpful. \n\nMark Thompson: Sure. Anything else, maybe, about the demo?\n\nEmily Stone: Yeah, I\u2019m also wondering about the security aspects. How is data security handled?\n\nMark Thompson: Security, right. So, um, the system is secure.\n\nEmily Stone: Can you elaborate?\n\nMark Thompson: It's, uh, encrypted.\n\nEmily Stone: Okay, what kind of encryption do you use?\n\nMark Thompson: Um, the standard kind... AES, I think. Yeah, AES.\n\nEmily Stone: Hmm, okay. And what about the licensing fees?\n\nMark Thompson: Licensing, right. Um, they depend on usage.\n\nEmily Stone: Can you be more specific?\n\nMark Thompson: Well, it varies. \n\nEmily Stone: Varies how?\n\nMark Thompson: Uh, based on how much you use it, I think.\n\nEmily Stone: Okay. We\u2019d need more details on that.\n\nMark Thompson: Sure, I'll get those details to you. Anything else?\n\nEmily Stone: I'm also curious, um, about customer support.\n\nMark Thompson: Support is, uh, available.\n\nEmily Stone: Available how? Email, phone?\n\nMark Thompson: Both, I think. \n\nEmily Stone: And what are the hours?\n\nMark Thompson: It depends on the plan, I believe.\n\nEmily Stone: Okay. Can you send me that information too?\n\nMark Thompson: Yeah, absolutely. Anything else?\n\nEmily Stone: No, I think that covers it for now. \n\nMark Thompson: Great, so yeah. I'll get that info to you.\n\nEmily Stone: Okay, thanks.\n\nMark Thompson: Sure. Talk soon, Emily.\n\nEmily Stone: Talk soon, Mark. Thanks.\n\nMark Thompson: Bye.\n\nEmily Stone: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Emily, this is Mark from InfiniMeld. How are you?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Mark. I'm good, thanks. How are you?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm doing well, thanks. So, um, we had the online demo the other day."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, we did. It was...interesting."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, interesting. Did you, uh, have any questions about it?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, I think some parts were a bit unclear about how the integration actually works."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, okay. Um, what parts specifically?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, the data flow, mostly. How does it connect with our existing systems?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. Uh, so we have this thing where... uh, it integrates. With the system."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, but how exactly does it integrate? What are the steps?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. So, um, there are several steps. I think."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Do you have those steps documented?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, well, I\u2019m sure we do somewhere, but I can check that for you."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, that would be helpful."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure. Anything else, maybe, about the demo?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I\u2019m also wondering about the security aspects. How is data security handled?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Security, right. So, um, the system is secure."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you elaborate?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It's, uh, encrypted."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, what kind of encryption do you use?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, the standard kind... AES, I think. Yeah, AES."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm, okay. And what about the licensing fees?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Licensing, right. Um, they depend on usage."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you be more specific?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, it varies."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Varies how?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, based on how much you use it, I think."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. We\u2019d need more details on that."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I'll get those details to you. Anything else?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm also curious, um, about customer support."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support is, uh, available."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Available how? Email, phone?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Both, I think."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And what are the hours?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It depends on the plan, I believe."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Can you send me that information too?"
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, absolutely. Anything else?"
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No, I think that covers it for now."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, so yeah. I'll get that info to you."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, thanks."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure. Talk soon, Emily."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Talk soon, Mark. Thanks."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Mark Thompson",
+                "userId": "markthompson@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Emily Stone",
+                "userId": "emilystone@example.com"
+            }
+        }
+    ]
+}

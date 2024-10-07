@@ -1,0 +1,502 @@
+{
+    "opportunity_id": "007",
+    "interaction_id": "007-2",
+    "transcript": "Nathan Green: Hi Emma, this is Nathan Green from InfiniMeld. How are you doing today?\n\nEmma Scott: Oh, hi Nathan. I'm okay, thanks. How about you?\n\nNathan Green: I'm good, thanks for asking. So, you wanted to discuss some AI solutions?\n\nEmma Scott: Yes, well, kind of. We are looking into... some options, I guess.\n\nNathan Green: Okay, so, what are you thinking about... exactly? Like, what do you need?\n\nEmma Scott: Um, we're looking at, um, enhancing our data processing, or something like that. Not sure, just, you know, AI stuff. Can you tell me what you have?\n\nNathan Green: Sure... We have multiple solutions. Like, data warehouse stuff. And AI stuff too.\n\nEmma Scott: Right, but, what kind of AI stuff? Can you be more specific?\n\nNathan Green: Erm, yeah. We have predictive analytics. And maybe some other things. Let me think...\n\nEmma Scott: Okay. Predictive analytics. Uh, how does that help us?\n\nNathan Green: Good question. It helps you\u2026 predict things. Like, future trends. Or something like that.\n\nEmma Scott: I see. Can you give me more details on how it works?\n\nNathan Green: Sure\u2026 I'm trying to remember the specifics. Basically, it uses data to predict stuff. You know what I mean?\n\nEmma Scott: Well, I need to know how it interfaces with our current systems.\n\nNathan Green: Um, right, that. It integrates. Somehow. With most systems. We would figure that out in the implementation phase, I guess.\n\nEmma Scott: Okay... What kind of data does it need to work effectively?\n\nNathan Green: Oh, it needs different types of data. Like numerical, textual, maybe others?\n\nEmma Scott: Can it handle real-time data updates?\n\nNathan Green: Real-time... yes, I think so. But I need to confirm that. Let's talk more about your needs.\n\nEmma Scott: We're thinking of predicting market trends. Is that possible?\n\nNathan Green: Market trends... right. Yes, we can use our AI stuff to do that. It\u2019s powerful.\n\nEmma Scott: How accurate are these predictions?\n\nNathan Green: Accuracy... very accurate. Well, as accurate as predictive analytics can be. You know?\n\nEmma Scott: Can you give me some examples?\n\nNathan Green: Examples? Um... not off the top of my head. But we have them. Somewhere.\n\nEmma Scott: Okay, we're also concerned about data privacy. How do you ensure that?\n\nNathan Green: Privacy is important. We have measures, like, encryption and stuff. Secure protocols.\n\nEmma Scott: Can you specify what kind of encryption?\n\nNathan Green: Uh, the good kind. Not sure exactly. Let me get back to you on that.\n\nEmma Scott: Alright, and what about scalability? We have lots of data.\n\nNathan Green: Scalability, yes. It's scalable. To any size of data, pretty much.\n\nEmma Scott: Can your solution integrate with cloud services?\n\nNathan Green: Cloud services, yes. We can do that. We have options there.\n\nEmma Scott: Which cloud services specifically?\n\nNathan Green: All the major ones. Like, AWS, Google Cloud... I'm not sure which else offhand.\n\nEmma Scott: And what\u2019s the pricing model for your solutions?\n\nNathan Green: Pricing, right. It's flexible. We can work something out, I'm sure.\n\nEmma Scott: Can you give me a rough idea?\n\nNathan Green: Rough idea... well, it depends. On what you need. And usage. We'll figure it out.\n\nEmma Scott: What kind of support do you offer post-implementation?\n\nNathan Green: Support, yes. We have support. Basic, advanced... some tiered options.\n\nEmma Scott: Can you explain the support options in more detail?\n\nNathan Green: Um... support is like, technical help and... updates. Stuff like that. I\u2019ll need to get more detailed info for you later.\n\nEmma Scott: Okay, do you have any case studies or customer references we can look at?\n\nNathan Green: References, right. We do, somewhere. I\u2019ll find them and send them over.\n\nEmma Scott: Alright, can you email me those details and the specific solutions you mentioned?\n\nNathan Green: Email, yes. I\u2019ll do that. Soon.\n\nEmma Scott: Okay, when can I expect to receive that information?\n\nNathan Green: Soon, like, in a couple of days. Is that okay?\n\nEmma Scott: That's fine. Thanks, Nathan. Anything else we need to cover?\n\nNathan Green: Um, no, I think that's it... for now. We\u2019ll talk more once you have the email.\n\nEmma Scott: Alright, thank you. I'll wait for your email.\n\nNathan Green: Great, thanks Emma. Have a good day.\n\nEmma Scott: You too. Goodbye.\n\nNathan Green: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Emma, this is Nathan Green from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, hi Nathan. I'm okay, thanks. How about you?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm good, thanks for asking. So, you wanted to discuss some AI solutions?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, well, kind of. We are looking into... some options, I guess."
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, so, what are you thinking about... exactly? Like, what do you need?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, we're looking at, um, enhancing our data processing, or something like that. Not sure, just, you know, AI stuff. Can you tell me what you have?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure... We have multiple solutions. Like, data warehouse stuff. And AI stuff too."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, but, what kind of AI stuff? Can you be more specific?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Erm, yeah. We have predictive analytics. And maybe some other things. Let me think..."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Predictive analytics. Uh, how does that help us?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Good question. It helps you\u2026 predict things. Like, future trends. Or something like that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I see. Can you give me more details on how it works?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure\u2026 I'm trying to remember the specifics. Basically, it uses data to predict stuff. You know what I mean?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, I need to know how it interfaces with our current systems."
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, right, that. It integrates. Somehow. With most systems. We would figure that out in the implementation phase, I guess."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay... What kind of data does it need to work effectively?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, it needs different types of data. Like numerical, textual, maybe others?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can it handle real-time data updates?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Real-time... yes, I think so. But I need to confirm that. Let's talk more about your needs."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We're thinking of predicting market trends. Is that possible?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Market trends... right. Yes, we can use our AI stuff to do that. It\u2019s powerful."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "How accurate are these predictions?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Accuracy... very accurate. Well, as accurate as predictive analytics can be. You know?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you give me some examples?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Examples? Um... not off the top of my head. But we have them. Somewhere."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, we're also concerned about data privacy. How do you ensure that?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Privacy is important. We have measures, like, encryption and stuff. Secure protocols."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you specify what kind of encryption?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, the good kind. Not sure exactly. Let me get back to you on that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, and what about scalability? We have lots of data."
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Scalability, yes. It's scalable. To any size of data, pretty much."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can your solution integrate with cloud services?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Cloud services, yes. We can do that. We have options there."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Which cloud services specifically?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "All the major ones. Like, AWS, Google Cloud... I'm not sure which else offhand."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And what\u2019s the pricing model for your solutions?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Pricing, right. It's flexible. We can work something out, I'm sure."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you give me a rough idea?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Rough idea... well, it depends. On what you need. And usage. We'll figure it out."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What kind of support do you offer post-implementation?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support, yes. We have support. Basic, advanced... some tiered options."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you explain the support options in more detail?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um... support is like, technical help and... updates. Stuff like that. I\u2019ll need to get more detailed info for you later."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, do you have any case studies or customer references we can look at?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "References, right. We do, somewhere. I\u2019ll find them and send them over."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, can you email me those details and the specific solutions you mentioned?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Email, yes. I\u2019ll do that. Soon."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, when can I expect to receive that information?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Soon, like, in a couple of days. Is that okay?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That's fine. Thanks, Nathan. Anything else we need to cover?"
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, no, I think that's it... for now. We\u2019ll talk more once you have the email."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, thank you. I'll wait for your email."
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, thanks Emma. Have a good day."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "You too. Goodbye."
+            },
+            "from": {
+                "name": "Emma Scott",
+                "userId": "emmascott@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        }
+    ]
+}

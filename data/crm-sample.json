@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "001",
+    "accountName": "Tech Solutions Inc.",
+    "salesRep": {
+      "name": "Jay Mishra",
+      "email": "jaymishra@example.com",
+      "phone": "+1234567890"
+    },
+    "contact": {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@techsolutions.com",
+      "phone": "+1987654321"
+    },
+    "leadSource": "LinkedIn",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Qualification",
+        "date": "2024-09-05T14:45:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "001-1",
+        "channel": "Email",
+        "datetime": "2024-09-02T15:00:00Z",
+        "content": "Introduction email sent to customer, awaiting response.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Alice Johnson",
+          "email": "alice.johnson@techsolutions.com",
+          "phone": "+1987654321"
+        }
+      },
+      {
+        "interactionId": "001-2",
+        "channel": "Phone",
+        "datetime": "2024-09-06T11:30:00Z",
+        "content": "Discussion on product benefits, customer interested in further details.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Alice Johnson",
+          "email": "alice.johnson@techsolutions.com",
+          "phone": "+1987654321"
+        }
+      },
+      {
+        "interactionId": "001-3",
+        "channel": "Meeting",
+        "datetime": "2024-09-08T09:00:00Z",
+        "content": "In-person meeting to demonstrate the product's capabilities.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Alice Johnson",
+          "email": "alice.johnson@techsolutions.com",
+          "phone": "+1987654321"
+        }
+      }
+    ],
+    "opportunityAmount": 15000,
+    "probability": 30,
+    "timeSinceOpen": 20,
+    "targetCloseDate": "2024-10-15T00:00:00Z",
+    "nextStep": "Send demo proposal"
+  },
+  {
+    "id": "002",
+    "accountName": "DataOps Inc.",
+    "salesRep": {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "+1234567891"
+    },
+    "contact": {
+      "name": "Robert Parker",
+      "email": "robert.parker@dataops.com",
+      "phone": "+1987654322"
+    },
+    "leadSource": "Referral",
+    "status": "Opportunity",
+    "stage": "Proposal",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-08-10T09:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-08-14T12:00:00Z"
+      },
+      {
+        "stage": "Proposal",
+        "date": "2024-08-18T16:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "002-1",
+        "channel": "Phone",
+        "datetime": "2024-08-11T14:30:00Z",
+        "content": "Initial call, customer interested in exploring data warehouse options.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Robert Parker",
+          "email": "robert.parker@dataops.com",
+          "phone": "+1987654322"
+        }
+      },
+      {
+        "interactionId": "002-2",
+        "channel": "Email",
+        "datetime": "2024-08-19T10:15:00Z",
+        "content": "Proposal for data warehouse solutions sent.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Robert Parker",
+          "email": "robert.parker@dataops.com",
+          "phone": "+1987654322"
+        }
+      },
+      {
+        "interactionId": "002-3",
+        "channel": "Meeting",
+        "datetime": "2024-08-22T10:00:00Z",
+        "content": "Discussed proposal in a meeting, customer requested a revised version.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Robert Parker",
+          "email": "robert.parker@dataops.com",
+          "phone": "+1987654322"
+        }
+      }
+    ],
+    "opportunityAmount": 25000,
+    "probability": 50,
+    "timeSinceOpen": 40,
+    "targetCloseDate": "2024-10-01T00:00:00Z",
+    "nextStep": "Follow up on proposal"
+  },
+  {
+    "id": "003",
+    "accountName": "Fintech Innovations",
+    "salesRep": {
+      "name": "Mark Thompson",
+      "email": "markthompson@example.com",
+      "phone": "+1234567892"
+    },
+    "contact": {
+      "name": "Daniel Reed",
+      "email": "daniel.reed@fintechinnovations.com",
+      "phone": "+1987654323"
+    },
+    "leadSource": "Website",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-07-21T11:15:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-07-25T09:45:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "003-1",
+        "channel": "Chat",
+        "datetime": "2024-07-22T12:30:00Z",
+        "content": "Chat support on product features, lead interested.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Daniel Reed",
+          "email": "daniel.reed@fintechinnovations.com",
+          "phone": "+1987654323"
+        }
+      },
+      {
+        "interactionId": "003-2",
+        "channel": "Email",
+        "datetime": "2024-07-26T08:45:00Z",
+        "content": "Email follow-up with case studies.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Daniel Reed",
+          "email": "daniel.reed@fintechinnovations.com",
+          "phone": "+1987654323"
+        }
+      },
+      {
+        "interactionId": "003-3",
+        "channel": "Phone",
+        "datetime": "2024-07-27T10:00:00Z",
+        "content": "Phone call discussing pricing models, customer interested in further analysis.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Daniel Reed",
+          "email": "daniel.reed@fintechinnovations.com",
+          "phone": "+1987654323"
+        }
+      }
+    ],
+    "opportunityAmount": 40000,
+    "probability": 40,
+    "timeSinceOpen": 60,
+    "targetCloseDate": "2024-09-20T00:00:00Z",
+    "nextStep": "Schedule a demo"
+  },
+  {
+    "id": "004",
+    "accountName": "Retail Giant Co.",
+    "salesRep": {
+      "name": "Emily Carter",
+      "email": "emilycarter@example.com",
+      "phone": "+1234567893"
+    },
+    "contact": {
+      "name": "Michael Evans",
+      "email": "michael.evans@retailgiantco.com",
+      "phone": "+1987654324"
+    },
+    "leadSource": "Trade Show",
+    "status": "Opportunity",
+    "stage": "Proposal",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-06-10T13:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-06-14T10:00:00Z"
+      },
+      {
+        "stage": "Proposal",
+        "date": "2024-06-20T15:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "004-1",
+        "channel": "Phone",
+        "datetime": "2024-06-11T14:45:00Z",
+        "content": "Explained data warehouse solutions, sent proposal.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "Michael Evans",
+          "email": "michael.evans@retailgiantco.com",
+          "phone": "+1987654324"
+        }
+      },
+      {
+        "interactionId": "004-2",
+        "channel": "Email",
+        "datetime": "2024-06-21T12:00:00Z",
+        "content": "Customer reviewing proposal, discussing internally.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "Michael Evans",
+          "email": "michael.evans@retailgiantco.com",
+          "phone": "+1987654324"
+        }
+      },
+      {
+        "interactionId": "004-3",
+        "channel": "Meeting",
+        "datetime": "2024-06-23T11:00:00Z",
+        "content": "Proposal reviewed in a meeting, customer requested additional pricing details.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "Michael Evans",
+          "email": "michael.evans@retailgiantco.com",
+          "phone": "+1987654324"
+        }
+      }
+    ],
+    "opportunityAmount": 60000,
+    "probability": 60,
+    "timeSinceOpen": 100,
+    "targetCloseDate": "2024-07-25T00:00:00Z",
+    "nextStep": "Follow up for feedback"
+  },
+  {
+    "id": "005",
+    "accountName": "Healthcare Analytics LLC",
+    "salesRep": {
+      "name": "David Harris",
+      "email": "davidharris@example.com",
+      "phone": "+1234567894"
+    },
+    "contact": {
+      "name": "Sophia White",
+      "email": "sophia.white@healthanalytics.com",
+      "phone": "+1987654325"
+    },
+    "leadSource": "Cold Call",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-05-05T10:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-05-09T14:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "005-1",
+        "channel": "Phone",
+        "datetime": "2024-05-06T13:15:00Z",
+        "content": "Cold call, customer requested more information.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sophia White",
+          "email": "sophia.white@healthanalytics.com",
+          "phone": "+1987654325"
+        }
+      },
+      {
+        "interactionId": "005-2",
+        "channel": "Email",
+        "datetime": "2024-05-10T09:30:00Z",
+        "content": "Sent brochure and case studies to customer.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sophia White",
+          "email": "sophia.white@healthanalytics.com",
+          "phone": "+1987654325"
+        }
+      },
+      {
+        "interactionId": "005-3",
+        "channel": "Phone",
+        "datetime": "2024-05-11T11:00:00Z",
+        "content": "Follow-up call regarding the brochure, customer asked for a demo session.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sophia White",
+          "email": "sophia.white@healthanalytics.com",
+          "phone": "+1987654325"
+        }
+      }
+    ],
+    "opportunityAmount": 30000,
+    "probability": 35,
+    "timeSinceOpen": 145,
+    "targetCloseDate": "2024-07-01T00:00:00Z",
+    "nextStep": "Setup meeting"
+  },
+  {
+    "id": "006",
+    "accountName": "CloudTech Systems",
+    "salesRep": {
+      "name": "Laura Bennett",
+      "email": "laurabennett@example.com",
+      "phone": "+1234567895"
+    },
+    "contact": {
+      "name": "James Martin",
+      "email": "james.martin@cloudtech.com",
+      "phone": "+1987654326"
+    },
+    "leadSource": "Email Campaign",
+    "status": "Opportunity",
+    "stage": "Negotiation",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-04-15T10:30:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-04-19T11:45:00Z"
+      },
+      {
+        "stage": "Negotiation",
+        "date": "2024-04-24T16:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "006-1",
+        "channel": "Email",
+        "datetime": "2024-04-16T12:00:00Z",
+        "content": "Customer responded to email campaign, interested in details.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "James Martin",
+          "email": "james.martin@cloudtech.com",
+          "phone": "+1987654326"
+        }
+      },
+      {
+        "interactionId": "006-2",
+        "channel": "Phone",
+        "datetime": "2024-04-20T14:00:00Z",
+        "content": "Discussed pricing and implementation timeline.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "James Martin",
+          "email": "james.martin@cloudtech.com",
+          "phone": "+1987654326"
+        }
+      },
+      {
+        "interactionId": "006-3",
+        "channel": "Meeting",
+        "datetime": "2024-04-22T10:30:00Z",
+        "content": "Meeting scheduled to discuss the contract terms.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "James Martin",
+          "email": "james.martin@cloudtech.com",
+          "phone": "+1987654326"
+        }
+      }
+    ],
+    "opportunityAmount": 100000,
+    "probability": 70,
+    "timeSinceOpen": 180,
+    "targetCloseDate": "2024-05-30T00:00:00Z",
+    "nextStep": "Finalize terms"
+  },
+  {
+    "id": "007",
+    "accountName": "AI Analytics Corp.",
+    "salesRep": {
+      "name": "Nathan Green",
+      "email": "nathangreen@example.com",
+      "phone": "+1234567896"
+    },
+    "contact": {
+      "name": "Emma Scott",
+      "email": "emma.scott@aianalytics.com",
+      "phone": "+1987654327"
+    },
+    "leadSource": "LinkedIn",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-09-01T11:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-09-01T14:24:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "007-1",
+        "channel": "Email",
+        "datetime": "2024-09-01T12:30:00Z",
+        "content": "Initial outreach to discuss AI-powered data warehouses.",
+        "salesRep": {
+          "name": "Nathan Green",
+          "email": "nathangreen@example.com",
+          "phone": "+1234567896"
+        },
+        "contact": {
+          "name": "Emma Scott",
+          "email": "emma.scott@aianalytics.com",
+          "phone": "+1987654327"
+        }
+      },
+      {
+        "interactionId": "007-2",
+        "channel": "Phone",
+        "datetime": "2024-09-02T13:00:00Z",
+        "content": "Phone call to discuss potential AI solutions, customer asked for more details.",
+        "salesRep": {
+          "name": "Nathan Green",
+          "email": "nathangreen@example.com",
+          "phone": "+1234567896"
+        },
+        "contact": {
+          "name": "Emma Scott",
+          "email": "emma.scott@aianalytics.com",
+          "phone": "+1987654327"
+        }
+      }
+    ],
+    "opportunityAmount": 50000,
+    "probability": 20,
+    "timeSinceOpen": 20,
+    "targetCloseDate": "2024-11-15T00:00:00Z",
+    "nextStep": "Follow up in a week"
+  },
+  {
+    "id": "008",
+    "accountName": "E-Commerce Solutions",
+    "salesRep": {
+      "name": "Samantha Rogers",
+      "email": "samantharogers@example.com",
+      "phone": "+1234567897"
+    },
+    "contact": {
+      "name": "William Brown",
+      "email": "william.brown@ecommercesolutions.com",
+      "phone": "+1987654328"
+    },
+    "leadSource": "Google Ads",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-08-01T10:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-08-03T13:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "008-1",
+        "channel": "Chat",
+        "datetime": "2024-08-01T12:45:00Z",
+        "content": "Customer inquired about enterprise data warehouse solutions.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "William Brown",
+          "email": "william.brown@ecommercesolutions.com",
+          "phone": "+1987654328"
+        }
+      },
+      {
+        "interactionId": "008-2",
+        "channel": "Email",
+        "datetime": "2024-08-04T09:15:00Z",
+        "content": "Sent whitepaper and detailed product overview.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "William Brown",
+          "email": "william.brown@ecommercesolutions.com",
+          "phone": "+1987654328"
+        }
+      },
+      {
+        "interactionId": "008-3",
+        "channel": "Phone",
+        "datetime": "2024-08-06T10:00:00Z",
+        "content": "Phone call to discuss product details, customer requested a demo.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "William Brown",
+          "email": "william.brown@ecommercesolutions.com",
+          "phone": "+1987654328"
+        }
+      }
+    ],
+    "opportunityAmount": 75000,
+    "probability": 45,
+    "timeSinceOpen": 50,
+    "targetCloseDate": "2024-10-10T00:00:00Z",
+    "nextStep": "Demo call"
+  },
+  {
+    "id": "009",
+    "accountName": "Banking Innovations LLC",
+    "salesRep": {
+      "name": "Kevin Brown",
+      "email": "kevinbrown@example.com",
+      "phone": "+1234567898"
+    },
+    "contact": {
+      "name": "Jennifer Davis",
+      "email": "jennifer.davis@bankinginnovations.com",
+      "phone": "+1987654329"
+    },
+    "leadSource": "Cold Email",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-07-10T09:00:00Z"
+      },
+      {
+        "stage": "Lead",
+        "date": "2024-07-11T13:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "009-1",
+        "channel": "Email",
+        "datetime": "2024-07-11T10:15:00Z",
+        "content": "Sent an introductory email, waiting for a response.",
+        "salesRep": {
+          "name": "Kevin Brown",
+          "email": "kevinbrown@example.com",
+          "phone": "+1234567898"
+        },
+        "contact": {
+          "name": "Jennifer Davis",
+          "email": "jennifer.davis@bankinginnovations.com",
+          "phone": "+1987654329"
+        }
+      },
+      {
+        "interactionId": "009-2",
+        "channel": "Phone",
+        "datetime": "2024-07-13T11:30:00Z",
+        "content": "Follow-up call, customer asked for more details on the solution.",
+        "salesRep": {
+          "name": "Kevin Brown",
+          "email": "kevinbrown@example.com",
+          "phone": "+1234567898"
+        },
+        "contact": {
+          "name": "Jennifer Davis",
+          "email": "jennifer.davis@bankinginnovations.com",
+          "phone": "+1987654329"
+        }
+      }
+    ],
+    "opportunityAmount": 90000,
+    "probability": 25,
+    "timeSinceOpen": 70,
+    "targetCloseDate": "2024-12-01T00:00:00Z",
+    "nextStep": "Follow up via email"
+  },
+  {
+    "id": "010",
+    "accountName": "Logistics Enterprises",
+    "salesRep": {
+      "name": "Olivia Gray",
+      "email": "oliviagray@example.com",
+      "phone": "+1234567899"
+    },
+    "contact": {
+      "name": "Chris Taylor",
+      "email": "chris.taylor@logisticsenterprises.com",
+      "phone": "+1987654330"
+    },
+    "leadSource": "Webinar",
+    "status": "Opportunity",
+    "stage": "Discovery",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-09-01T14:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-09-02T12:00:00Z"
+      },
+      {
+        "stage": "Discovery",
+        "date": "2024-09-05T10:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "010-1",
+        "channel": "Phone",
+        "datetime": "2024-09-03T16:00:00Z",
+        "content": "Customer is interested in logistics data analysis features.",
+        "salesRep": {
+          "name": "Olivia Gray",
+          "email": "oliviagray@example.com",
+          "phone": "+1234567899"
+        },
+        "contact": {
+          "name": "Chris Taylor",
+          "email": "chris.taylor@logisticsenterprises.com",
+          "phone": "+1987654330"
+        }
+      },
+      {
+        "interactionId": "010-2",
+        "channel": "Meeting",
+        "datetime": "2024-09-06T11:00:00Z",
+        "content": "Held a needs analysis meeting to explore solutions.",
+        "salesRep": {
+          "name": "Olivia Gray",
+          "email": "oliviagray@example.com",
+          "phone": "+1234567899"
+        },
+        "contact": {
+          "name": "Chris Taylor",
+          "email": "chris.taylor@logisticsenterprises.com",
+          "phone": "+1987654330"
+        }
+      }
+    ],
+    "opportunityAmount": 110000,
+    "probability": 55,
+    "timeSinceOpen": 25,
+    "targetCloseDate": "2024-11-20T00:00:00Z",
+    "nextStep": "Proposal presentation"
+  },
+  {
+    "id": "011",
+    "accountName": "Green Energy Solutions",
+    "salesRep": {
+      "name": "Jay Mishra",
+      "email": "jaymishra@example.com",
+      "phone": "+1234567890"
+    },
+    "contact": {
+      "name": "Laura Wilson",
+      "email": "laura.wilson@greenenergy.com",
+      "phone": "+1987654331"
+    },
+    "leadSource": "LinkedIn",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-09-10T09:30:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-09-14T11:15:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "011-1",
+        "channel": "Email",
+        "datetime": "2024-09-12T10:00:00Z",
+        "content": "Introduction email sent, awaiting customer response.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Laura Wilson",
+          "email": "laura.wilson@greenenergy.com",
+          "phone": "+1987654331"
+        }
+      },
+      {
+        "interactionId": "011-2",
+        "channel": "Phone",
+        "datetime": "2024-09-15T13:45:00Z",
+        "content": "Discussed energy solutions, customer interested in solar tech.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Laura Wilson",
+          "email": "laura.wilson@greenenergy.com",
+          "phone": "+1987654331"
+        }
+      },
+      {
+        "interactionId": "011-3",
+        "channel": "Meeting",
+        "datetime": "2024-09-18T11:00:00Z",
+        "content": "Scheduled virtual meeting to present solar technology.",
+        "salesRep": {
+          "name": "Jay Mishra",
+          "email": "jaymishra@example.com",
+          "phone": "+1234567890"
+        },
+        "contact": {
+          "name": "Laura Wilson",
+          "email": "laura.wilson@greenenergy.com",
+          "phone": "+1987654331"
+        }
+      }
+    ],
+    "opportunityAmount": 20000,
+    "probability": 35,
+    "timeSinceOpen": 18,
+    "targetCloseDate": "2024-11-01T00:00:00Z",
+    "nextStep": "Send product brochure"
+  },
+  {
+    "id": "012",
+    "accountName": "Smart Tech Services",
+    "salesRep": {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "+1234567891"
+    },
+    "contact": {
+      "name": "Kevin Murphy",
+      "email": "kevin.murphy@smarttech.com",
+      "phone": "+1987654332"
+    },
+    "leadSource": "Referral",
+    "status": "Opportunity",
+    "stage": "Proposal",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-07-20T08:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-07-22T14:00:00Z"
+      },
+      {
+        "stage": "Proposal",
+        "date": "2024-07-30T16:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "012-1",
+        "channel": "Phone",
+        "datetime": "2024-07-21T12:30:00Z",
+        "content": "Initial call, customer interested in cloud services.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Kevin Murphy",
+          "email": "kevin.murphy@smarttech.com",
+          "phone": "+1987654332"
+        }
+      },
+      {
+        "interactionId": "012-2",
+        "channel": "Email",
+        "datetime": "2024-07-31T10:00:00Z",
+        "content": "Proposal for cloud infrastructure sent to customer.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Kevin Murphy",
+          "email": "kevin.murphy@smarttech.com",
+          "phone": "+1987654332"
+        }
+      },
+      {
+        "interactionId": "012-3",
+        "channel": "Meeting",
+        "datetime": "2024-08-01T14:00:00Z",
+        "content": "Held meeting to discuss the proposal in more detail, awaiting customer feedback.",
+        "salesRep": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "+1234567891"
+        },
+        "contact": {
+          "name": "Kevin Murphy",
+          "email": "kevin.murphy@smarttech.com",
+          "phone": "+1987654332"
+        }
+      }
+    ],
+    "opportunityAmount": 45000,
+    "probability": 55,
+    "timeSinceOpen": 60,
+    "targetCloseDate": "2024-09-20T00:00:00Z",
+    "nextStep": "Follow up for feedback"
+  },
+  {
+    "id": "013",
+    "accountName": "Blockchain Innovators",
+    "salesRep": {
+      "name": "Mark Thompson",
+      "email": "markthompson@example.com",
+      "phone": "+1234567892"
+    },
+    "contact": {
+      "name": "Emily Stone",
+      "email": "emily.stone@blockchaininnovators.com",
+      "phone": "+1987654333"
+    },
+    "leadSource": "Website",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-08-05T12:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-08-07T14:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "013-1",
+        "channel": "Email",
+        "datetime": "2024-08-06T09:00:00Z",
+        "content": "Customer inquired about blockchain services via website.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Emily Stone",
+          "email": "emily.stone@blockchaininnovators.com",
+          "phone": "+1987654333"
+        }
+      },
+      {
+        "interactionId": "013-2",
+        "channel": "Phone",
+        "datetime": "2024-08-08T11:30:00Z",
+        "content": "Discussed blockchain implementation strategy.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Emily Stone",
+          "email": "emily.stone@blockchaininnovators.com",
+          "phone": "+1987654333"
+        }
+      },
+      {
+        "interactionId": "013-3",
+        "channel": "Meeting",
+        "datetime": "2024-08-09T15:00:00Z",
+        "content": "Held an online demo meeting for blockchain integration.",
+        "salesRep": {
+          "name": "Mark Thompson",
+          "email": "markthompson@example.com",
+          "phone": "+1234567892"
+        },
+        "contact": {
+          "name": "Emily Stone",
+          "email": "emily.stone@blockchaininnovators.com",
+          "phone": "+1987654333"
+        }
+      }
+    ],
+    "opportunityAmount": 35000,
+    "probability": 40,
+    "timeSinceOpen": 55,
+    "targetCloseDate": "2024-09-30T00:00:00Z",
+    "nextStep": "Send case studies"
+  },
+  {
+    "id": "014",
+    "accountName": "Cyber Defense Corp.",
+    "salesRep": {
+      "name": "Emily Carter",
+      "email": "emilycarter@example.com",
+      "phone": "+1234567893"
+    },
+    "contact": {
+      "name": "John Matthews",
+      "email": "john.matthews@cyberdefense.com",
+      "phone": "+1987654334"
+    },
+    "leadSource": "Trade Show",
+    "status": "Opportunity",
+    "stage": "Negotiation",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-06-01T12:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-06-05T10:00:00Z"
+      },
+      {
+        "stage": "Negotiation",
+        "date": "2024-06-10T13:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "014-1",
+        "channel": "Phone",
+        "datetime": "2024-06-03T11:00:00Z",
+        "content": "Explained data security solutions, customer interested in further discussions.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "John Matthews",
+          "email": "john.matthews@cyberdefense.com",
+          "phone": "+1987654334"
+        }
+      },
+      {
+        "interactionId": "014-2",
+        "channel": "Email",
+        "datetime": "2024-06-11T10:30:00Z",
+        "content": "Sent formal proposal, awaiting feedback.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "John Matthews",
+          "email": "john.matthews@cyberdefense.com",
+          "phone": "+1987654334"
+        }
+      },
+      {
+        "interactionId": "014-3",
+        "channel": "Phone",
+        "datetime": "2024-06-15T09:00:00Z",
+        "content": "Follow-up call regarding the proposal, customer asked for further negotiation on pricing.",
+        "salesRep": {
+          "name": "Emily Carter",
+          "email": "emilycarter@example.com",
+          "phone": "+1234567893"
+        },
+        "contact": {
+          "name": "John Matthews",
+          "email": "john.matthews@cyberdefense.com",
+          "phone": "+1987654334"
+        }
+      }
+    ],
+    "opportunityAmount": 85000,
+    "probability": 65,
+    "timeSinceOpen": 120,
+    "targetCloseDate": "2024-08-15T00:00:00Z",
+    "nextStep": "Finalize contract"
+  },
+  {
+    "id": "015",
+    "accountName": "MediaTech Studios",
+    "salesRep": {
+      "name": "David Harris",
+      "email": "davidharris@example.com",
+      "phone": "+1234567894"
+    },
+    "contact": {
+      "name": "Sarah Bell",
+      "email": "sarah.bell@mediatech.com",
+      "phone": "+1987654335"
+    },
+    "leadSource": "Cold Call",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-05-22T14:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-05-26T12:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "015-1",
+        "channel": "Phone",
+        "datetime": "2024-05-23T15:30:00Z",
+        "content": "Discussed media analytics solutions, customer requested more information.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sarah Bell",
+          "email": "sarah.bell@mediatech.com",
+          "phone": "+1987654335"
+        }
+      },
+      {
+        "interactionId": "015-2",
+        "channel": "Email",
+        "datetime": "2024-05-27T09:45:00Z",
+        "content": "Sent brochure and product details.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sarah Bell",
+          "email": "sarah.bell@mediatech.com",
+          "phone": "+1987654335"
+        }
+      },
+      {
+        "interactionId": "015-3",
+        "channel": "Phone",
+        "datetime": "2024-05-30T13:00:00Z",
+        "content": "Follow-up call to discuss next steps, customer requested a demo.",
+        "salesRep": {
+          "name": "David Harris",
+          "email": "davidharris@example.com",
+          "phone": "+1234567894"
+        },
+        "contact": {
+          "name": "Sarah Bell",
+          "email": "sarah.bell@mediatech.com",
+          "phone": "+1987654335"
+        }
+      }
+    ],
+    "opportunityAmount": 42000,
+    "probability": 38,
+    "timeSinceOpen": 125,
+    "targetCloseDate": "2024-08-01T00:00:00Z",
+    "nextStep": "Schedule demo"
+  },
+  {
+    "id": "016",
+    "accountName": "FinServe Technologies",
+    "salesRep": {
+      "name": "Laura Bennett",
+      "email": "laurabennett@example.com",
+      "phone": "+1234567895"
+    },
+    "contact": {
+      "name": "Anthony Grant",
+      "email": "anthony.grant@finserve.com",
+      "phone": "+1987654336"
+    },
+    "leadSource": "Email Campaign",
+    "status": "Opportunity",
+    "stage": "Discovery",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-07-10T10:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-07-12T14:00:00Z"
+      },
+      {
+        "stage": "Discovery",
+        "date": "2024-07-18T09:30:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "016-1",
+        "channel": "Email",
+        "datetime": "2024-07-11T12:00:00Z",
+        "content": "Customer responded to email campaign for financial software.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "Anthony Grant",
+          "email": "anthony.grant@finserve.com",
+          "phone": "+1987654336"
+        }
+      },
+      {
+        "interactionId": "016-2",
+        "channel": "Phone",
+        "datetime": "2024-07-20T11:00:00Z",
+        "content": "Discussed software needs and integration options.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "Anthony Grant",
+          "email": "anthony.grant@finserve.com",
+          "phone": "+1987654336"
+        }
+      },
+      {
+        "interactionId": "016-3",
+        "channel": "Meeting",
+        "datetime": "2024-07-22T15:00:00Z",
+        "content": "Meeting held to analyze financial software integration possibilities.",
+        "salesRep": {
+          "name": "Laura Bennett",
+          "email": "laurabennett@example.com",
+          "phone": "+1234567895"
+        },
+        "contact": {
+          "name": "Anthony Grant",
+          "email": "anthony.grant@finserve.com",
+          "phone": "+1987654336"
+        }
+      }
+    ],
+    "opportunityAmount": 75000,
+    "probability": 50,
+    "timeSinceOpen": 40,
+    "targetCloseDate": "2024-10-01T00:00:00Z",
+    "nextStep": "Send technical documentation"
+  },
+  {
+    "id": "017",
+    "accountName": "CloudStorage Co.",
+    "salesRep": {
+      "name": "Nathan Green",
+      "email": "nathangreen@example.com",
+      "phone": "+1234567896"
+    },
+    "contact": {
+      "name": "Rebecca Moore",
+      "email": "rebecca.moore@cloudstorage.com",
+      "phone": "+1987654337"
+    },
+    "leadSource": "LinkedIn",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-09-05T10:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-09-07T09:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "017-1",
+        "channel": "Email",
+        "datetime": "2024-09-06T08:45:00Z",
+        "content": "Customer expressed interest in cloud storage solutions.",
+        "salesRep": {
+          "name": "Nathan Green",
+          "email": "nathangreen@example.com",
+          "phone": "+1234567896"
+        },
+        "contact": {
+          "name": "Rebecca Moore",
+          "email": "rebecca.moore@cloudstorage.com",
+          "phone": "+1987654337"
+        }
+      },
+      {
+        "interactionId": "017-2",
+        "channel": "Phone",
+        "datetime": "2024-09-08T10:15:00Z",
+        "content": "Discussed technical specifications and integration options.",
+        "salesRep": {
+          "name": "Nathan Green",
+          "email": "nathangreen@example.com",
+          "phone": "+1234567896"
+        },
+        "contact": {
+          "name": "Rebecca Moore",
+          "email": "rebecca.moore@cloudstorage.com",
+          "phone": "+1987654337"
+        }
+      },
+      {
+        "interactionId": "017-3",
+        "channel": "Meeting",
+        "datetime": "2024-09-10T13:00:00Z",
+        "content": "Held an in-person meeting to finalize the technical scope of the project.",
+        "salesRep": {
+          "name": "Nathan Green",
+          "email": "nathangreen@example.com",
+          "phone": "+1234567896"
+        },
+        "contact": {
+          "name": "Rebecca Moore",
+          "email": "rebecca.moore@cloudstorage.com",
+          "phone": "+1987654337"
+        }
+      }
+    ],
+    "opportunityAmount": 68000,
+    "probability": 45,
+    "timeSinceOpen": 20,
+    "targetCloseDate": "2024-11-10T00:00:00Z",
+    "nextStep": "Send proposal"
+  },
+  {
+    "id": "018",
+    "accountName": "AI Development LLC",
+    "salesRep": {
+      "name": "Samantha Rogers",
+      "email": "samantharogers@example.com",
+      "phone": "+1234567897"
+    },
+    "contact": {
+      "name": "Peter Thompson",
+      "email": "peter.thompson@aidev.com",
+      "phone": "+1987654338"
+    },
+    "leadSource": "Google Ads",
+    "status": "Opportunity",
+    "stage": "Proposal",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-07-01T10:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-07-03T12:00:00Z"
+      },
+      {
+        "stage": "Proposal",
+        "date": "2024-07-08T15:00:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "018-1",
+        "channel": "Chat",
+        "datetime": "2024-07-02T09:30:00Z",
+        "content": "Customer inquired about AI solutions through chat.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "Peter Thompson",
+          "email": "peter.thompson@aidev.com",
+          "phone": "+1987654338"
+        }
+      },
+      {
+        "interactionId": "018-2",
+        "channel": "Email",
+        "datetime": "2024-07-09T08:45:00Z",
+        "content": "Sent proposal for AI solutions.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "Peter Thompson",
+          "email": "peter.thompson@aidev.com",
+          "phone": "+1987654338"
+        }
+      },
+      {
+        "interactionId": "018-3",
+        "channel": "Phone",
+        "datetime": "2024-07-10T14:00:00Z",
+        "content": "Phone call to discuss the proposal details, customer requested additional case studies.",
+        "salesRep": {
+          "name": "Samantha Rogers",
+          "email": "samantharogers@example.com",
+          "phone": "+1234567897"
+        },
+        "contact": {
+          "name": "Peter Thompson",
+          "email": "peter.thompson@aidev.com",
+          "phone": "+1987654338"
+        }
+      }
+    ],
+    "opportunityAmount": 90000,
+    "probability": 60,
+    "timeSinceOpen": 70,
+    "targetCloseDate": "2024-09-15T00:00:00Z",
+    "nextStep": "Follow up on proposal"
+  },
+  {
+    "id": "019",
+    "accountName": "Retail Innovations",
+    "salesRep": {
+      "name": "Kevin Brown",
+      "email": "kevinbrown@example.com",
+      "phone": "+1234567898"
+    },
+    "contact": {
+      "name": "Jessica Lee",
+      "email": "jessica.lee@retailinnovations.com",
+      "phone": "+1987654339"
+    },
+    "leadSource": "Cold Email",
+    "status": "Prospect",
+    "stage": "Qualification",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-08-12T11:00:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-08-15T16:40:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "019-1",
+        "channel": "Email",
+        "datetime": "2024-08-13T09:30:00Z",
+        "content": "Sent introductory email about retail data solutions.",
+        "salesRep": {
+          "name": "Kevin Brown",
+          "email": "kevinbrown@example.com",
+          "phone": "+1234567898"
+        },
+        "contact": {
+          "name": "Jessica Lee",
+          "email": "jessica.lee@retailinnovations.com",
+          "phone": "+1987654339"
+        }
+      },
+      {
+        "interactionId": "019-2",
+        "channel": "Phone",
+        "datetime": "2024-08-15T10:00:00Z",
+        "content": "Follow-up phone call, customer expressed interest in learning more, requested case studies.",
+        "salesRep": {
+          "name": "Kevin Brown",
+          "email": "kevinbrown@example.com",
+          "phone": "+1234567898"
+        },
+        "contact": {
+          "name": "Jessica Lee",
+          "email": "jessica.lee@retailinnovations.com",
+          "phone": "+1987654339"
+        }
+      }
+    ],
+    "opportunityAmount": 75000,
+    "probability": 30,
+    "timeSinceOpen": 45,
+    "targetCloseDate": "2024-12-01T00:00:00Z",
+    "nextStep": "Follow up with email"
+  },
+  {
+    "id": "020",
+    "accountName": "Global Logistics Solutions",
+    "salesRep": {
+      "name": "Olivia Gray",
+      "email": "oliviagray@example.com",
+      "phone": "+1234567899"
+    },
+    "contact": {
+      "name": "Robert Clark",
+      "email": "robert.clark@globallogistics.com",
+      "phone": "+1987654340"
+    },
+    "leadSource": "Webinar",
+    "status": "Opportunity",
+    "stage": "Discovery",
+    "stageTransitions": [
+      {
+        "stage": "Lead",
+        "date": "2024-08-22T09:30:00Z"
+      },
+      {
+        "stage": "Qualification",
+        "date": "2024-08-24T11:00:00Z"
+      },
+      {
+        "stage": "Discovery",
+        "date": "2024-08-29T12:45:00Z"
+      }
+    ],
+    "communicationHistory": [
+      {
+        "interactionId": "020-1",
+        "channel": "Phone",
+        "datetime": "2024-08-23T14:00:00Z",
+        "content": "Customer is exploring logistics solutions, interested in demo.",
+        "salesRep": {
+          "name": "Olivia Gray",
+          "email": "oliviagray@example.com",
+          "phone": "+1234567899"
+        },
+        "contact": {
+          "name": "Robert Clark",
+          "email": "robert.clark@globallogistics.com",
+          "phone": "+1987654340"
+        }
+      },
+      {
+        "interactionId": "020-2",
+        "channel": "Meeting",
+        "datetime": "2024-08-30T10:00:00Z",
+        "content": "Held a needs analysis meeting to gather requirements for logistics solutions.",
+        "salesRep": {
+          "name": "Olivia Gray",
+          "email": "oliviagray@example.com",
+          "phone": "+1234567899"
+        },
+        "contact": {
+          "name": "Robert Clark",
+          "email": "robert.clark@globallogistics.com",
+          "phone": "+1987654340"
+        }
+      }
+    ],
+    "opportunityAmount": 125000,
+    "probability": 50,
+    "timeSinceOpen": 35,
+    "targetCloseDate": "2024-10-30T00:00:00Z",
+    "nextStep": "Schedule demo"
+  }
+]

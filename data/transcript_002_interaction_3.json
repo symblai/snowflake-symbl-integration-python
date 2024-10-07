@@ -1,0 +1,340 @@
+{
+    "opportunity_id": "002",
+    "interaction_id": "002-3",
+    "transcript": "Jane Smith: Hi Robert, it's Jane from InfiniMeld. How are you doing today?\n\nRobert Parker: Hi Jane, I'm okay. How about you?\n\nJane Smith: I'm good, thanks. So, um, I think we need to talk about the proposal? \n\nRobert Parker: Right, right. The proposal. \n\nJane Smith: You mentioned that you wanted a revised version... correct?\n\nRobert Parker: Yeah, we had some points we needed you to address. Did you...uh, get my email?\n\nJane Smith: Um, I think so... let me check. Hold on.\n\nRobert Parker: Sure...\n\nJane Smith: Okay, I found it. So, you wanted changes in, like, the pricing or something?\n\nRobert Parker: Not exactly. We had specific concerns about the integration part of the project.\n\nJane Smith: Oh, right. Integration. Do you have, like, specifics?\n\nRobert Parker: Yeah, I outlined them in the email. I think there were points about the API compatibility and data migration.\n\nJane Smith: Okay, I see... So, you need more details on, um, API and migration... Got it.\n\nRobert Parker: Yeah, and maybe a bit more clarity on the timeline as well.\n\nJane Smith: Alright. Timeline... API... Migration... Anything else?\n\nRobert Parker: Well, those are the main points. But we also wanted to discuss support options.\n\nJane Smith: Support options, sure. \n\nRobert Parker: So, what can you revise exactly?\n\nJane Smith: Uh, I'll have to check with my team on that. But, um, we can definitely work on those concerns.\n\nRobert Parker: Okay, when can you get back to us with the revised proposal?\n\nJane Smith: Um, I'll have to see. Maybe by the end of the week?\n\nRobert Parker: End of the week? Hmm... Anything faster?\n\nJane Smith: Uh, I'll try, but no promises...\n\nRobert Parker: Alright, I guess. Just prioritize the integration part, okay?\n\nJane Smith: Yep, sure. Integration first. Got it.\n\nRobert Parker: Okay, good. And the costs, too. We want to make sure there are no hidden fees.\n\nJane Smith: Right. No hidden fees. Uh, clear pricing.\n\nRobert Parker: Yes.\n\nJane Smith: So is there anything else, or should we...?\n\nRobert Parker: Just make sure you read through the entire email again, okay?\n\nJane Smith: Okay, sure. I'll read it.\n\nRobert Parker: Alright. And you'll get back to us by?\n\nJane Smith: Well, I'll say end of the week but I'll try for sooner.\n\nRobert Parker: Okay. I'll look out for it.\n\nJane Smith: Alright. Thanks, Robert.\n\nRobert Parker: Yep. Bye.\n\nJane Smith: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Robert, it's Jane from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Jane, I'm okay. How about you?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm good, thanks. So, um, I think we need to talk about the proposal?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, right. The proposal."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "You mentioned that you wanted a revised version... correct?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, we had some points we needed you to address. Did you...uh, get my email?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, I think so... let me check. Hold on."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure..."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, I found it. So, you wanted changes in, like, the pricing or something?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not exactly. We had specific concerns about the integration part of the project."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, right. Integration. Do you have, like, specifics?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I outlined them in the email. I think there were points about the API compatibility and data migration."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, I see... So, you need more details on, um, API and migration... Got it."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, and maybe a bit more clarity on the timeline as well."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Timeline... API... Migration... Anything else?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, those are the main points. But we also wanted to discuss support options."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support options, sure."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So, what can you revise exactly?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I'll have to check with my team on that. But, um, we can definitely work on those concerns."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, when can you get back to us with the revised proposal?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, I'll have to see. Maybe by the end of the week?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "End of the week? Hmm... Anything faster?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I'll try, but no promises..."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, I guess. Just prioritize the integration part, okay?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yep, sure. Integration first. Got it."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, good. And the costs, too. We want to make sure there are no hidden fees."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. No hidden fees. Uh, clear pricing."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "So is there anything else, or should we...?"
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Just make sure you read through the entire email again, okay?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, sure. I'll read it."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. And you'll get back to us by?"
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, I'll say end of the week but I'll try for sooner."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. I'll look out for it."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Thanks, Robert."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yep. Bye."
+            },
+            "from": {
+                "name": "Robert Parker",
+                "userId": "robertparker@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Jane Smith",
+                "userId": "janesmith@example.com"
+            }
+        }
+    ]
+}

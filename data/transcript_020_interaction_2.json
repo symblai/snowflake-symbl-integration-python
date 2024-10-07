@@ -1,0 +1,520 @@
+{
+    "opportunity_id": "020",
+    "interaction_id": "020-2",
+    "transcript": "Olivia Gray: Hi Robert, this is Olivia from InfiniMeld. How are you doing today?\n\nRobert Clark: Oh, hi Olivia. I'm, uh, I'm good, I guess. How can I help you?\n\nOlivia Gray: Great. So, um, we've been talking to your team about your logistics needs. Did you, um, have a chance to look over the information we sent?\n\nRobert Clark: Uh, yeah, I think I saw it. But, uh, can you remind me again what exactly it's about?\n\nOlivia Gray: Sure, sure. Uh, we're a data warehouse company, and, um, we can help you streamline your logistics with, uh, our solutions.\n\nRobert Clark: Okay, but, um, how is it different from what we already use?\n\nOlivia Gray: Well, um, we focus on, uh, data warehousing, you know, to help with, um, logistics.\n\nRobert Clark: Right. But, um, what specifics can you give me?\n\nOlivia Gray: Uh, specifics. Hmm, let's see. Well, um, we can, uh, optimize your data flow and, uh, help you, you know, manage data better.\n\nRobert Clark: Okay, but what about, um, integration? We use several different systems.\n\nOlivia Gray: Um, integration, yes. We, uh, we can, uh, I think, integrate with most systems. Uh, we'd have to check on specifics.\n\nRobert Clark: Alright, but we have, um, specific needs. Can you, uh, meet all of them?\n\nOlivia Gray: Well, um, that's something we'd need to, uh, discuss further, I suppose.\n\nRobert Clark: Okay, but, um, we need specifics.\n\nOlivia Gray: Um, specifics, right. Well, we have a team that can, um, look into that for you.\n\nRobert Clark: Can you give me an example of how you helped another company?\n\nOlivia Gray: Uh, sure. Um, there was this, uh, one company, and, um, we helped them, um, optimize their data.\n\nRobert Clark: That\u2019s, um, quite vague, Olivia.\n\nOlivia Gray: Uh, yeah, sorry about that. Let me, um, get back to you with more, um, specifics.\n\nRobert Clark: Okay, sure. But what about the cost? We need to, um, consider our budget.\n\nOlivia Gray: Cost, yes. Well, um, that's something we can, um, discuss when we, uh, have more details about your, um, requirements.\n\nRobert Clark: Okay, but a ballpark figure would be helpful.\n\nOlivia Gray: Uh, ballpark. Um, it varies, honestly. Depends on, um, what you need.\n\nRobert Clark: Alright, we really need, um, more clarity here.\n\nOlivia Gray: Of course. Um, how about we, um, set up another meeting?\n\nRobert Clark: Another meeting, sure, but I need more information, Olivia.\n\nOlivia Gray: Right, um, I understand. I can, um, have our team send over more, uh, details.\n\nRobert Clark: Okay, but what kind of details can you, um, provide?\n\nOlivia Gray: Um, like, you know, specifics on how we can, um, integrate and, uh, costs.\n\nRobert Clark: Okay, fine. But, uh, can we talk about the timeline?\n\nOlivia Gray: Timeline, yes. Well, um, it depends on, you know, your needs and, um, how quickly we can, um, move forward.\n\nRobert Clark: Right. Uh, anything more specific on that?\n\nOlivia Gray: Um, specifics, specifics. Well, we usually, um, start with a, uh, three-month plan.\n\nRobert Clark: Three months? What happens in those three months?\n\nOlivia Gray: Well, um, we, uh, gather your data, and, um, start integrating.\n\nRobert Clark: Okay, but, um, how do you handle data security?\n\nOlivia Gray: Data security? We, um, follow industry standards.\n\nRobert Clark: Ok, can you, um, elaborate?\n\nOlivia Gray: Um, not right now. But I can, um, have someone from our, uh, security team, reach out.\n\nRobert Clark: Alright, but we need, um, quicker answers. \n\nOlivia Gray: I, uh, understand. Um, let me get back to you on all these points, is that okay?\n\nRobert Clark: I guess. But, uh, we can't wait too long.\n\nOlivia Gray: Right. I'll, um, make sure to get you the, um, answer quickly.\n\nRobert Clark: Okay, but what about scalability?\n\nOlivia Gray: Scalability? Yes, we, um, scale according to your, uh, needs.\n\nRobert Clark: Can you, um, give a more solid example?\n\nOlivia Gray: Uh, well, um, if you grow, we, um, accommodate that.\n\nRobert Clark: Okay, but specifics?\n\nOlivia Gray: Um, it'll be in the details we send, I promise.\n\nRobert Clark: Alright, I'll, um, look for that then.\n\nOlivia Gray: Great, um, so we\u2019ll follow up with, uh, more details?\n\nRobert Clark: Yes, please, and, uh, as soon as possible.\n\nOlivia Gray: Absolutely. We\u2019ll, um, get on it right away.\n\nRobert Clark: Okay, thanks Olivia. I'll wait for your response.\n\nOlivia Gray: Thank you, Robert. We\u2019ll talk soon.\n\nRobert Clark: Bye.\n\nOlivia Gray: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Robert, this is Olivia from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Oh, hi Olivia. I'm, uh, I'm good, I guess. How can I help you?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great. So, um, we've been talking to your team about your logistics needs. Did you, um, have a chance to look over the information we sent?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, I think I saw it. But, uh, can you remind me again what exactly it's about?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, sure. Uh, we're a data warehouse company, and, um, we can help you streamline your logistics with, uh, our solutions."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but, um, how is it different from what we already use?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, um, we focus on, uh, data warehousing, you know, to help with, um, logistics."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. But, um, what specifics can you give me?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, specifics. Hmm, let's see. Well, um, we can, uh, optimize your data flow and, uh, help you, you know, manage data better."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but what about, um, integration? We use several different systems."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, integration, yes. We, uh, we can, uh, I think, integrate with most systems. Uh, we'd have to check on specifics."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, but we have, um, specific needs. Can you, uh, meet all of them?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, um, that's something we'd need to, uh, discuss further, I suppose."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but, um, we need specifics."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, specifics, right. Well, we have a team that can, um, look into that for you."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you give me an example of how you helped another company?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, sure. Um, there was this, uh, one company, and, um, we helped them, um, optimize their data."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That\u2019s, um, quite vague, Olivia."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, yeah, sorry about that. Let me, um, get back to you with more, um, specifics."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, sure. But what about the cost? We need to, um, consider our budget."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Cost, yes. Well, um, that's something we can, um, discuss when we, uh, have more details about your, um, requirements."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but a ballpark figure would be helpful."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, ballpark. Um, it varies, honestly. Depends on, um, what you need."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, we really need, um, more clarity here."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Of course. Um, how about we, um, set up another meeting?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Another meeting, sure, but I need more information, Olivia."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, um, I understand. I can, um, have our team send over more, uh, details."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but what kind of details can you, um, provide?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, like, you know, specifics on how we can, um, integrate and, uh, costs."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, fine. But, uh, can we talk about the timeline?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Timeline, yes. Well, um, it depends on, you know, your needs and, um, how quickly we can, um, move forward."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. Uh, anything more specific on that?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, specifics, specifics. Well, we usually, um, start with a, uh, three-month plan."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Three months? What happens in those three months?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, um, we, uh, gather your data, and, um, start integrating."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but, um, how do you handle data security?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Data security? We, um, follow industry standards."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Ok, can you, um, elaborate?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, not right now. But I can, um, have someone from our, uh, security team, reach out."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, but we need, um, quicker answers."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I, uh, understand. Um, let me get back to you on all these points, is that okay?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I guess. But, uh, we can't wait too long."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right. I'll, um, make sure to get you the, um, answer quickly."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but what about scalability?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Scalability? Yes, we, um, scale according to your, uh, needs."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you, um, give a more solid example?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, well, um, if you grow, we, um, accommodate that."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, but specifics?"
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, it'll be in the details we send, I promise."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, I'll, um, look for that then."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Great, um, so we\u2019ll follow up with, uh, more details?"
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, please, and, uh, as soon as possible."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Absolutely. We\u2019ll, um, get on it right away."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, thanks Olivia. I'll wait for your response."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thank you, Robert. We\u2019ll talk soon."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Robert Clark",
+                "userId": "robertclark@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Olivia Gray",
+                "userId": "oliviagray@example.com"
+            }
+        }
+    ]
+}

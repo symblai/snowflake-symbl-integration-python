@@ -1,0 +1,9 @@
+name: sales_analysis
+channels:
+  - snowflake
+dependencies:
+  - snowflake
+  - streamlit
+  - pandas
+  - altair
+

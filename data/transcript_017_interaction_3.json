@@ -1,0 +1,520 @@
+{
+    "opportunity_id": "017",
+    "interaction_id": "017-3",
+    "transcript": "Nathan Green: Hi Rebecca, this is Nathan Green from InfiniMeld. How are you doing today?\n\nRebecca Moore: Hi Nathan, I'm good, thanks. How are you?\n\nNathan Green: I'm fine, thank you. So, um, I guess we should, uh, talk about that technical meeting we, um, just had?\n\nRebecca Moore: Yes, that would be good. What exactly did we, uh, agree on?\n\nNathan Green: Um, well, I think we talked a lot about, uh, the technical stuff. \n\nRebecca Moore: Yes, there were a lot of details. Can you remind me of the main points?\n\nNathan Green: Sure, um, let me see, we talked about the, uh, integration... I think?\n\nRebecca Moore: Integration. Right. But, uh, which parts were we integrating again?\n\nNathan Green: Uh, I believe it was the, um, the backend, I think? \n\nRebecca Moore: Okay. But what does that really mean, Nathan?\n\nNathan Green: Uh, it has to do with, you know, data transfers and stuff like that, I guess.\n\nRebecca Moore: Right, but specifics are important. Do you remember which systems are involved?\n\nNathan Green: Systems, yes. Wasn\u2019t it, um, your SQL databases connecting to our warehouse?\n\nRebecca Moore: That sounds familiar. But how exactly are we, um, going to do that?\n\nNathan Green: Well, we have, like, APIs and stuff. That should work, right?\n\nRebecca Moore: True, but we need more than just \u201cAPIs and stuff.\u201d What did we say about the security protocols?\n\nNathan Green: Security, yes. I think we mentioned encryption... probably?\n\nRebecca Moore: Encryption, but what kind?\n\nNathan Green: Uh, I believe it's, um, standard encryption procedures?\n\nRebecca Moore: Standard? We might need something more specific. \n\nNathan Green: Right, but it\u2019s secure, I\u2019m pretty sure we covered that.\n\nRebecca Moore: Sure, but I still need exact details.\n\nNathan Green: Um, okay. What about the, uh, data migration process? We discussed that, right?\n\nRebecca Moore: We did, but I'm still unclear on the methodology.\n\nNathan Green: Methodology, um, I think it's manual... or automated?\n\nRebecca Moore: Which one is it, Nathan? That\u2019s critical.\n\nNathan Green: I\u2019m sorry, I can\u2019t recall. Let me check on that and get back to you.\n\nRebecca Moore: Okay. That would be good. And what about the, um, timeline?\n\nNathan Green: Timeline, right. Well, we didn\u2019t set, uh, concrete dates, did we?\n\nRebecca Moore: No, I don't think we did. But it\u2019s important. \n\nNathan Green: Yes, of course. I think we, maybe, said a couple of months?\n\nRebecca Moore: A couple of months? That\u2019s quite vague, Nathan.\n\nNathan Green: Yeah, maybe. Should we have another meeting to discuss?\n\nRebecca Moore: I guess we need to. We didn't finalize much.\n\nNathan Green: Alright, um, I can, like, send out an invite?\n\nRebecca Moore: Yes, do that. But we need a better agenda next time.\n\nNathan Green: Agreed. I think... I guess. What else did we talk about in person?\n\nRebecca Moore: We had something on data redundancy. \n\nNathan Green: Right, redundancy. That\u2019s important too. \n\nRebecca Moore: Yes, and what was the, um, plan there?\n\nNathan Green: Plan? I think it was to have backups... or something?\n\nRebecca Moore: That\u2019s too vague, Nathan. \n\nNathan Green: Yeah, I realize that. I\u2019ll look into it.\n\nRebecca Moore: And, uh, costs. Did we discuss costs?\n\nNathan Green: Costs? Ah, right, we should have a, uh, proposal for that.\n\nRebecca Moore: Yes, we need detailed cost breakdowns.\n\nNathan Green: I\u2019ll make sure to get those details.\n\nRebecca Moore: Okay. Thanks. Is there anything else?\n\nNathan Green: Um, I think we covered most?\n\nRebecca Moore: It feels like we didn\u2019t finalize much, Nathan.\n\nNathan Green: Yeah, definitely need another follow-up.\n\nRebecca Moore: Alright, set it up and we will go from there.\n\nNathan Green: Sure thing. I\u2019ll, uh, get on that soon.\n\nRebecca Moore: Okay. Thanks, Nathan.\n\nNathan Green: No problem. Talk soon.\n\nRebecca Moore: Bye.\n\nNathan Green: Bye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Rebecca, this is Nathan Green from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Nathan, I'm good, thanks. How are you?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm fine, thank you. So, um, I guess we should, uh, talk about that technical meeting we, um, just had?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, that would be good. What exactly did we, uh, agree on?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, well, I think we talked a lot about, uh, the technical stuff."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, there were a lot of details. Can you remind me of the main points?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, um, let me see, we talked about the, uh, integration... I think?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Integration. Right. But, uh, which parts were we integrating again?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I believe it was the, um, the backend, I think?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. But what does that really mean, Nathan?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, it has to do with, you know, data transfers and stuff like that, I guess."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, but specifics are important. Do you remember which systems are involved?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Systems, yes. Wasn\u2019t it, um, your SQL databases connecting to our warehouse?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That sounds familiar. But how exactly are we, um, going to do that?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Well, we have, like, APIs and stuff. That should work, right?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "True, but we need more than just \u201cAPIs and stuff.\u201d What did we say about the security protocols?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Security, yes. I think we mentioned encryption... probably?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Encryption, but what kind?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uh, I believe it's, um, standard encryption procedures?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Standard? We might need something more specific."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, but it\u2019s secure, I\u2019m pretty sure we covered that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, but I still need exact details."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, okay. What about the, uh, data migration process? We discussed that, right?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We did, but I'm still unclear on the methodology."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Methodology, um, I think it's manual... or automated?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Which one is it, Nathan? That\u2019s critical."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I\u2019m sorry, I can\u2019t recall. Let me check on that and get back to you."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. That would be good. And what about the, um, timeline?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Timeline, right. Well, we didn\u2019t set, uh, concrete dates, did we?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No, I don't think we did. But it\u2019s important."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, of course. I think we, maybe, said a couple of months?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "A couple of months? That\u2019s quite vague, Nathan."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, maybe. Should we have another meeting to discuss?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I guess we need to. We didn't finalize much."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, um, I can, like, send out an invite?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, do that. But we need a better agenda next time."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Agreed. I think... I guess. What else did we talk about in person?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We had something on data redundancy."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, redundancy. That\u2019s important too."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, and what was the, um, plan there?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Plan? I think it was to have backups... or something?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "That\u2019s too vague, Nathan."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I realize that. I\u2019ll look into it."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And, uh, costs. Did we discuss costs?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Costs? Ah, right, we should have a, uh, proposal for that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, we need detailed cost breakdowns."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I\u2019ll make sure to get those details."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Thanks. Is there anything else?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Um, I think we covered most?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "It feels like we didn\u2019t finalize much, Nathan."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, definitely need another follow-up."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright, set it up and we will go from there."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure thing. I\u2019ll, uh, get on that soon."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Thanks, Nathan."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "No problem. Talk soon."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Bye."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        }
+    ]
+}

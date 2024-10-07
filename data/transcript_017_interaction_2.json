@@ -1,0 +1,538 @@
+{
+    "opportunity_id": "017",
+    "interaction_id": "017-2",
+    "transcript": "Nathan Green: Hi Rebecca, it's Nathan Green from InfiniMeld. How are you doing today?\n\nRebecca Moore: Hi Nathan. I'm good. Thanks for calling. How about you?\n\nNathan Green: I'm doing well, thanks. So, uh, we're here to talk about the technical stuff and, um, integration... options... or something.\n\nRebecca Moore: Yes, uh, integration options, right. So, can you tell me more about your, uh, technical specifications?\n\nNathan Green: Sure, uh, we have, you know, a robust data warehouse. It's pretty solid, uh, fast too.\n\nRebecca Moore: Okay. Can you elaborate on, uh, the \"solid and fast\" part?\n\nNathan Green: Yeah, um, it's like, you know, it handles data really well. Fast access and everything.\n\nRebecca Moore: Right, but we need something specific, like, um, the analytics part. How does it handle that?\n\nNathan Green: Analytics, yes. We have analytics. It's integrated, I think.\n\nRebecca Moore: Integrated analytics is good but what kind of, um, tools or integrations do you support?\n\nNathan Green: Tools, of course, we... have tools. Do you use Excel? We can do Excel.\n\nRebecca Moore: Yes, but we primarily use Tableau. Does it support Tableau?\n\nNathan Green: Absolutely, uh, Tables. I mean, Tableau, yes. It should support that.\n\nRebecca Moore: Should support? I need something more definitive here.\n\nNathan Green: Umm, let me think... yes, it does. I think. Yeah, it does.\n\nRebecca Moore: Alright. Can you, uh, tell me about the process of integration with Tableau?\n\nNathan Green: Umm, you probably have to install something. A connector or something like that. It should be simple.\n\nRebecca Moore: Hmm. What about data import? How does your system handle that?\n\nNathan Green: Import, yes. We handle it. You have data, it gets imported. Pretty straightforward.\n\nRebecca Moore: And, uh, automation. Do you support automation in data import?\n\nNathan Green: Yes, definitely. Automation is key. We support it, for sure.\n\nRebecca Moore: What kind of automation workflows do you provide?\n\nNathan Green: Automation workflows... um, the good ones. Like, timely updates and stuff.\n\nRebecca Moore: Can I customize those workflows?\n\nNathan Green: Custom, yes. Flexibility is our thing. You can set things the way you like them.\n\nRebecca Moore: Okay, that's a bit vague. Can you give an example?\n\nNathan Green: Example... let's say you need a report every day. You can set it to automatically, uh, refresh.\n\nRebecca Moore: And the security aspects? Data security is very crucial for us.\n\nNathan Green: Yeah, security. We have that covered. Firewalls and encrypted stuff, you know.\n\nRebecca Moore: Can you specify the encryption standards you use?\n\nNathan Green: Standards, yes. We use those. The standard ones, uh, AES maybe?\n\nRebecca Moore: You don't sound very sure. Is it AES or something else?\n\nNathan Green: I think it's AES. But we can check that.\n\nRebecca Moore: Moving on, uh, what are the integration options with existing cloud services like AWS or Google Cloud?\n\nNathan Green: AWS and Google, right. We work with those. There's some integration with APIs.\n\nRebecca Moore: Can you specify which APIs you support?\n\nNathan Green: Specific APIs? Uhhh, the common ones. RESTful, maybe?\n\nRebecca Moore: Maybe isn't clear enough. Can you provide documentation?\n\nNathan Green: Documentation, right. We have that. It's put somewhere, I'll need to find it.\n\nRebecca Moore: We need this to make an informed decision. What about support?\n\nNathan Green: Support, we have. Our team is pretty good, I think.\n\nRebecca Moore: Is it 24/7 support?\n\nNathan Green: Uhh, not sure. But we have email support. And maybe phone too? I'll confirm.\n\nRebecca Moore: We need 24/7 support, Nathan. Can you get back to me on that?\n\nNathan Green: Yes, I'll, ah, get back to you soon. Anything else you need?\n\nRebecca Moore: Yes, pricing. We need details on that.\n\nNathan Green: Pricing, right. We have packages, you know. Different prices for different things.\n\nRebecca Moore: What are the packages?\n\nNathan Green: Umm, there's a starter, advanced, and enterprise, I think. I'll need to look at the exact numbers.\n\nRebecca Moore: And SLA terms? How do those look?\n\nNathan Green: SLA terms. Hmm. We have SLAs. I'll, uh, need to find them too. \n\nRebecca Moore: You seem unsure about a lot of these things, Nathan. Can you send me detailed info?\n\nNathan Green: Yeah, I can do that. Give me some time, and I'll compile everything and send it over. \n\nRebecca Moore: Alright. I expected more clarity, but I'll look at what you send. \n\nNathan Green: Okay, um, anything else right now?\n\nRebecca Moore: Not at the moment. Let's follow up once I get the details.\n\nNathan Green: Sure, I'll be in touch. Thanks, Rebecca. \n\nRebecca Moore: Thank you, Nathan. Goodbye.\n\nNathan Green: Goodbye.",
+    "messages": [
+        {
+            "payload": {
+                "content": "Hi Rebecca, it's Nathan Green from InfiniMeld. How are you doing today?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hi Nathan. I'm good. Thanks for calling. How about you?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I'm doing well, thanks. So, uh, we're here to talk about the technical stuff and, um, integration... options... or something."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, uh, integration options, right. So, can you tell me more about your, uh, technical specifications?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, uh, we have, you know, a robust data warehouse. It's pretty solid, uh, fast too."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay. Can you elaborate on, uh, the \"solid and fast\" part?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, um, it's like, you know, it handles data really well. Fast access and everything."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Right, but we need something specific, like, um, the analytics part. How does it handle that?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Analytics, yes. We have analytics. It's integrated, I think."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Integrated analytics is good but what kind of, um, tools or integrations do you support?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Tools, of course, we... have tools. Do you use Excel? We can do Excel."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, but we primarily use Tableau. Does it support Tableau?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Absolutely, uh, Tables. I mean, Tableau, yes. It should support that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Should support? I need something more definitive here."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Umm, let me think... yes, it does. I think. Yeah, it does."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. Can you, uh, tell me about the process of integration with Tableau?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Umm, you probably have to install something. A connector or something like that. It should be simple."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Hmm. What about data import? How does your system handle that?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Import, yes. We handle it. You have data, it gets imported. Pretty straightforward."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And, uh, automation. Do you support automation in data import?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, definitely. Automation is key. We support it, for sure."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What kind of automation workflows do you provide?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Automation workflows... um, the good ones. Like, timely updates and stuff."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can I customize those workflows?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Custom, yes. Flexibility is our thing. You can set things the way you like them."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, that's a bit vague. Can you give an example?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Example... let's say you need a report every day. You can set it to automatically, uh, refresh."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And the security aspects? Data security is very crucial for us."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, security. We have that covered. Firewalls and encrypted stuff, you know."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you specify the encryption standards you use?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Standards, yes. We use those. The standard ones, uh, AES maybe?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "You don't sound very sure. Is it AES or something else?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "I think it's AES. But we can check that."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Moving on, uh, what are the integration options with existing cloud services like AWS or Google Cloud?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "AWS and Google, right. We work with those. There's some integration with APIs."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Can you specify which APIs you support?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Specific APIs? Uhhh, the common ones. RESTful, maybe?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Maybe isn't clear enough. Can you provide documentation?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Documentation, right. We have that. It's put somewhere, I'll need to find it."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We need this to make an informed decision. What about support?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Support, we have. Our team is pretty good, I think."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Is it 24/7 support?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Uhh, not sure. But we have email support. And maybe phone too? I'll confirm."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "We need 24/7 support, Nathan. Can you get back to me on that?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, I'll, ah, get back to you soon. Anything else you need?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yes, pricing. We need details on that."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Pricing, right. We have packages, you know. Different prices for different things."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "What are the packages?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Umm, there's a starter, advanced, and enterprise, I think. I'll need to look at the exact numbers."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "And SLA terms? How do those look?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "SLA terms. Hmm. We have SLAs. I'll, uh, need to find them too."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "You seem unsure about a lot of these things, Nathan. Can you send me detailed info?"
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Yeah, I can do that. Give me some time, and I'll compile everything and send it over."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Alright. I expected more clarity, but I'll look at what you send."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Okay, um, anything else right now?"
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Not at the moment. Let's follow up once I get the details."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Sure, I'll be in touch. Thanks, Rebecca."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Thank you, Nathan. Goodbye."
+            },
+            "from": {
+                "name": "Rebecca Moore",
+                "userId": "rebeccamoore@example.com"
+            }
+        },
+        {
+            "payload": {
+                "content": "Goodbye."
+            },
+            "from": {
+                "name": "Nathan Green",
+                "userId": "nathangreen@example.com"
+            }
+        }
+    ]
+}
