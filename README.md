@@ -27,7 +27,7 @@ The project has three main artifacts:
 
 # Setup and Installation
 
-Clone the repository and navigate to the project directory, and make sure you change the directory to the project directory.
+Clone the repository and navigate to the project directory.
 
 ```shell
 git clone https://github.com/symblai/snowflake-symbl-integration-python.git
@@ -77,7 +77,7 @@ Once the script has finished running, you can start the Streamlit application to
 
 ```shell
 cd streamlit
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 # Learn More
