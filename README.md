@@ -6,16 +6,9 @@ meetings, store them in the Snowflake database, and visualize them using a Strea
 By merging unstructured conversational data with existing structured business data, this integration helps you uncover
 deeper insights, enabling more informed decision-making across customer service, sales, recruitment, and operations.
 
-![Sales Calls Analysis Dashboard](./images/sales_calls_analysis.gif)
+![Symbl Snowflake Diagram](./images/symbl-snowflake-integration.png)
 
-The project has three main artifacts:
 
-- [setup_snowflake_env.py](./setup_snowflake_env.py): sets up the Snowflake database and tables required for the
-  project.
-- [main.py](./main.py): processes the audio files, extracts insights using Symbl's APIs,
-  and stores them in the Snowflake database.
-- [streamlit](./streamlit): directory contains the dashboard for insights stored in the
-  Snowflake.
 
 # Prerequisites
 
@@ -26,6 +19,15 @@ The project has three main artifacts:
 - Python 3.8 or higher: Ensure Python is installed on your local machine.
 
 # Setup and Installation
+
+The project has three main artifacts:
+
+- [setup_snowflake_env.py](./setup_snowflake_env.py): sets up the Snowflake database and tables required for the
+  project.
+- [main.py](./main.py): processes the audio files, extracts insights using Symbl's APIs,
+  and stores them in the Snowflake database.
+- [streamlit](./streamlit): directory contains the dashboard for insights stored in the
+  Snowflake.
 
 Clone the repository and navigate to the project directory.
 
@@ -79,6 +81,9 @@ Once the script has finished running, you can start the Streamlit application to
 cd streamlit
 streamlit run app.py
 ```
+You can now access the Streamlit dashboard by navigating to `http://localhost:8501` in your browser.
+
+![Sales Calls Analysis Dashboard](./images/sales_calls_analysis.gif)
 
 # Learn More
 
