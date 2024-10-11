@@ -1,5 +1,5 @@
 import altair as alt
-from streamlit_float import *
+import streamlit as st
 
 from conversation_view import conversation_view
 from data_utils import get_conversation_stats, get_member_stats, get_trackers_by_stage, get_call_score_criteria_scores, \
