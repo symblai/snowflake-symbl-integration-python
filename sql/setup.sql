@@ -370,17 +370,6 @@ CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_tr
                                                                                                                         o.stage,
                                                                                                                         tr.conversation_id)) as t);
 
-CREATE OR REPLACE
-CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
-    ON CHUNK
-    WAREHOUSE = COMPUTE_WH
-    TARGET_LAG = '1 hour'
-    AS (
-        SELECT *
-        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_transcript_chunks
-    );
-
-
 CREATE OR REPLACE FUNCTION CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunk(
     summary string, positive_feedback string, negative_feedback string, criteria_name string, score float,
     rep_id string, rep_name string, account_name string, deal_stage string, conversation_id string, criteria_id string
@@ -494,6 +483,15 @@ CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chun
                                                                                                            c.conversation_id,
                                                                                                            csc.criteria_id)) as t);
 
+CREATE OR REPLACE
+CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
+    ON CHUNK
+    WAREHOUSE = COMPUTE_WH
+    TARGET_LAG = '1 minute'
+    AS (
+        SELECT *
+        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_transcript_chunks
+    );
 
 CREATE OR REPLACE CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
     ON CHUNK
