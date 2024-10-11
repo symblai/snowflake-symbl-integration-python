@@ -6,10 +6,7 @@ from typing import Dict
 import requests
 from tqdm import tqdm
 
-from utils import get_config, symbl_token, snowflake_connection
-
-symbl_credentials, snowflake_credentials = get_config()
-
+from utils import symbl_token, snowflake_connection
 
 def load_crm_data():
     # Load the crm-sample.json
