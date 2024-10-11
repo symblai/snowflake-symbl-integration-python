@@ -2,7 +2,6 @@ import tomllib
 
 import requests
 import snowflake.connector
-from dotenv import dotenv_values
 
 
 def get_secrets():
@@ -10,26 +9,6 @@ def get_secrets():
         data = tomllib.load(f)
         f.close()
     return data
-
-
-def get_config():
-    config = dotenv_values(".env")
-    symbl_credentials = {
-        "app_id": config.get("SYMBL_APP_ID"),
-        "app_secret": config.get("SYMBL_APP_SECRET"),
-        "nebula_api_key": config.get("SYMBL_NEBULA_API_KEY")
-    }
-
-    snowflake_credentials = {
-        "account": config.get("SNOWFLAKE_ACCOUNT"),
-        "user": config.get("SNOWFLAKE_USER"),
-        "password": config.get("SNOWFLAKE_PASSWORD"),
-        "database": config.get("SNOWFLAKE_DATABASE"),
-        "schema": config.get("SNOWFLAKE_SCHEMA"),
-        "warehouse": config.get("SNOWFLAKE_WAREHOUSE")
-    }
-
-    return symbl_credentials, snowflake_credentials
 
 
 def symbl_token():
