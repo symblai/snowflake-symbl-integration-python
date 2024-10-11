@@ -370,7 +370,7 @@ CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_tr
                                                                                                                         o.stage,
                                                                                                                         tr.conversation_id)) as t);
 
-CREATE
+CREATE OR REPLACE
 CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
