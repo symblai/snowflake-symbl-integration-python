@@ -495,10 +495,10 @@ CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chun
                                                                                                            csc.criteria_id)) as t);
 
 
-CREATE CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
+CREATE OR REPLACE CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
-    TARGET_LAG = '1 hour'
+    TARGET_LAG = '1 minute'
     AS (
         SELECT *
         FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunks
