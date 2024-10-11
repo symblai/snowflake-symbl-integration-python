@@ -2,12 +2,11 @@ import streamlit as st
 
 from utils import query_cortex_search_service
 
-if "search" not in st.session_state:
-    st.session_state.search = ""
-
 
 def show_search():
     def search():
+        if "search" not in st.session_state:
+            st.session_state.search = ""
         query = st.session_state.search
         if query and len(query) > 0:
             with st.spinner("Searching..."):
