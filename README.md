@@ -44,20 +44,23 @@ The project has three main artifacts:
   Snowflake.
 
 Clone the repository and navigate to the project directory.
-
 ```shell
 git clone https://github.com/symblai/snowflake-symbl-integration-python.git
 cd snowflake-symbl-integration-python
 ```
 
-Install the required dependencies by running -
+Create a Conda environment and activate it. Install [miniconda](https://docs.anaconda.com/miniconda/miniconda-install/#installing-miniconda) if you don't have it installed.
+```shell
+conda create -n snowflake-symbl python=3.11
+conda activate snowflake-symbl
+```
 
+Install the required dependencies by running -
 ```shell
 pip install -r requirements.txt
 ```
 
 Copy `secrets.toml.default` file to a new `secrets.toml` file.
-
 ```shell
 cp secrets.toml.default secrets.toml
 ```
@@ -65,7 +68,6 @@ cp secrets.toml.default secrets.toml
 Update `secrets.toml` file with your Symbl and Snowflake credentials.
 
 Once all values are updated, run the setup script to create the necessary tables in Snowflake.
-
 ```shell
 python setup_snowflake_env.py
 ```
@@ -76,7 +78,6 @@ access the required credentials.
 ## Process Calls
 
 You are now ready to run the `main.py` script to process the files and store the results in the Snowflake
-
 ```shell
 python main.py
 ```
@@ -88,7 +89,6 @@ calling `submit_audio_file` function instead of `submit_transcript` function.
 ## Start Streamlit Dashboard
 
 Once the script has finished running, you can start the Streamlit application to run the dashboard.
-
 ```shell
 cd streamlit
 streamlit run app.py
@@ -104,7 +104,6 @@ If you have paid Snowflake account that is not in trial, you can optionally inst
 Snowpark so that it can access Symbl's Nebula API from within your Snowflake instance.
 
 You can skip this step if you are using a trial account.
-
 ```shell
 python setup_snowflake_env.py --install_streamlit_app
 ```
