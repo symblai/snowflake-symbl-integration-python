@@ -8,6 +8,7 @@ from tqdm import tqdm
 
 from utils import symbl_token, snowflake_connection
 
+
 def load_crm_data():
     # Load the crm-sample.json
     with open('data/crm-sample.json', 'r') as crm_file:
@@ -104,7 +105,7 @@ def submit_transcript(transcript_messages, score_card_id, details=None, token=No
                                       "Authorization": f"Bearer {token}"})
     if response.status_code >= 400:
         print(f"Error processing transcript: {response.json()}")
-        return None, None, "failed"
+        raise Exception(f"Error processing transcript: {response.json()}")
 
     response = response.json()
     conversation_id, job_id = response["conversationId"], response["jobId"]
@@ -139,7 +140,7 @@ def submit_audio_file(audio_url, speaker_channels, score_card_id, details=None, 
                                       "Authorization": f"Bearer {token}"})
     if response.status_code >= 400:
         print(f"Error processing audio file: {response.json()}")
-        return None, None, "failed"
+        raise Exception(f"Error processing audio file: {response.json()}")
 
     response = response.json()
     conversation_id, job_id = response["conversationId"], response["jobId"]
@@ -620,10 +621,20 @@ def main():
     # Load all transcripts
     transcripts_data = load_all_transcripts("data")
 
-    # Process each opportunity
-    for opportunity in tqdm(crm_data):
-        opportunity_id = opportunity["id"]
-        process_opportunity(opportunity, transcripts_data[opportunity_id], score_card_id, token, conn)
+    try:
+        # Process each opportunity
+        for opportunity in tqdm(crm_data):
+            opportunity_id = opportunity["id"]
+            process_opportunity(opportunity, transcripts_data[opportunity_id], score_card_id, token, conn)
+    except Exception as e:
+        print(e)
+    finally:
+        from codecs import open
+        with open("sql/create_chunk_tables.sql", "r", encoding='utf-8') as f:
+            for cur in conn.execute_stream(f):
+                for ret in cur:
+                    print(ret)
+        print('Chunk tables created.')
 
     conn.close()
 
