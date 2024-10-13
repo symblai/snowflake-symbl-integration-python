@@ -296,9 +296,6 @@ CREATE OR REPLACE FUNCTION CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_ch
 as
 $$
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import copy
-from typing import Optional
-
 
 class text_chunker:
 
@@ -325,7 +322,7 @@ class text_chunker:
 $$;
 
 
-CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_transcript_chunks AS (SELECT tr.transcript      AS transcript,
+CREATE OR REPLACE TABLE CONVERSATION_DB.CONVERSATION_ANALYSIS.CONVERSATION_TRANSCRIPT_CHUNKS AS (SELECT tr.transcript      AS transcript,
                                                                                                            c.name             AS name,
                                                                                                            c.datetime         AS datetime,
                                                                                                            s.sales_rep_id     AS rep_id,
@@ -435,19 +432,7 @@ class text_chunker:
                    criteria_id)
 $$;
 
-
--- chunk           string,
---                 criteria_name   string,
---                 score           float,
---                 rep_id          string,
---                 rep_name        string,
---                 account_name    string,
---                 deal_stage      string,
---                 conversation_id string,
---                 criteria_id     string
-
-
-CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunks AS (SELECT csc.name              AS criteria_name,
+CREATE OR REPLACE TABLE CONVERSATION_DB.CONVERSATION_ANALYSIS.CALL_SCORE_CHUNKS AS (SELECT csc.name              AS criteria_name,
                                                                                               csc.score             AS score,
                                                                                               csc.criteria_id       AS criteria_id,
                                                                                               s.sales_rep_id        AS rep_id,
@@ -483,23 +468,26 @@ CREATE TABLE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chun
                                                                                                            c.conversation_id,
                                                                                                            csc.criteria_id)) as t);
 
-CREATE OR REPLACE
+CREATE
+OR
+REPLACE
 CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
     TARGET_LAG = '1 minute'
     AS (
         SELECT *
-        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_transcript_chunks
+        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.CONVERSATION_TRANSCRIPT_CHUNKS
     );
 
-CREATE OR REPLACE CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
+CREATE OR REPLACE
+CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
     TARGET_LAG = '1 minute'
     AS (
         SELECT *
-        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunks
+        FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.CALL_SCORE_CHUNKS
     );
 
 CREATE OR REPLACE NETWORK RULE symbl_apis_network_rule
