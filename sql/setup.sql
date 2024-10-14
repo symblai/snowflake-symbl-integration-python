@@ -468,10 +468,7 @@ CREATE OR REPLACE TABLE CONVERSATION_DB.CONVERSATION_ANALYSIS.CALL_SCORE_CHUNKS 
                                                                                                            c.conversation_id,
                                                                                                            csc.criteria_id)) as t);
 
-CREATE
-OR
-REPLACE
-CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
+CREATE CORTEX SEARCH SERVICE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
     TARGET_LAG = '1 minute'
@@ -480,8 +477,7 @@ CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_search_
         FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.CONVERSATION_TRANSCRIPT_CHUNKS
     );
 
-CREATE OR REPLACE
-CORTEX SEARCH SERVICE CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
+CREATE CORTEX SEARCH SERVICE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_search_service
     ON CHUNK
     WAREHOUSE = COMPUTE_WH
     TARGET_LAG = '1 minute'

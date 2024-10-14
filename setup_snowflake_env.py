@@ -40,8 +40,11 @@ if install_streamlit_app:
         secrets = get_secrets()
         if 'symbl' in secrets and 'nebula_api_key' in secrets['symbl']:
             nebula_api_key = secrets["symbl"]["nebula_api_key"]
-            conn.execute_string(
+            print("Creating Nebula API key secret...")
+            cur = conn.execute_string(
                 f"CREATE OR REPLACE SECRET nebula_api_key TYPE = GENERIC_STRING SECRET_STRING = '{nebula_api_key}'")
+            for ret in cur:
+                print(ret)
 
         with open("sql/create_symbl_network_integration.sql", "r", encoding='utf-8') as f:
             for cur in conn.execute_stream(f):
