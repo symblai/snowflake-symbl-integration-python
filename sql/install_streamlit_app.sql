@@ -16,7 +16,7 @@ PUT file://streamlit/environment.yml @CONVERSATION_DB.CONVERSATION_ANALYSIS.conv
 PUT file://streamlit/.streamlit/config.toml @CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_analysis_stage/.streamlit/ overwrite = true auto_compress = false;
 
 
-CREATE OR REPLACE STREAMLIT conversation_analysis
+CREATE OR REPLACE STREAMLIT CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_analysis
 ROOT_LOCATION = '@CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_analysis_stage'
 MAIN_FILE = 'app.py'
 QUERY_WAREHOUSE = COMPUTE_WH;
