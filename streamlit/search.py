@@ -13,7 +13,7 @@ def show_search():
                 try:
                     _, results = query_cortex_search_service(query,
                                                              services=["CONVERSATION_SEARCH_SERVICE"],
-                                                             limit=100)
+                                                             limit=20)
                     _results = []
                     for r in results:
                         _results.append(r['CONVERSATION_ID'])
