@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS conversation_analysis.Objections
 );
 
 -- Create or replace a view that aggregates all required information
-CREATE OR REPLACE VIEW conversation_analysis.conversation_summary_view AS
+CREATE VIEW  IF NOT EXISTS conversation_analysis.conversation_summary_view AS
 WITH RankedTopics AS (SELECT t.conversation_id,
                              t.text                                                                   AS topic,
                              ROW_NUMBER() OVER (PARTITION BY t.conversation_id ORDER BY t.score DESC) AS topic_rank
@@ -270,7 +270,7 @@ FROM conversation_analysis.Conversation c
 ORDER BY c.datetime DESC;
 
 
-CREATE OR REPLACE FUNCTION CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_chunk(
+CREATE FUNCTION IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.conversation_chunk(
     transcript string, name string, datetime datetime, rep_id string,
     rep_name string, account_name string, deal_stage string, conversation_id string
 )
@@ -367,7 +367,7 @@ CREATE OR REPLACE TABLE CONVERSATION_DB.CONVERSATION_ANALYSIS.CONVERSATION_TRANS
                                                                                                                         o.stage,
                                                                                                                         tr.conversation_id)) as t);
 
-CREATE OR REPLACE FUNCTION CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunk(
+CREATE FUNCTION  IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS.call_score_chunk(
     summary string, positive_feedback string, negative_feedback string, criteria_name string, score float,
     rep_id string, rep_name string, account_name string, deal_stage string, conversation_id string, criteria_id string
 )
@@ -485,8 +485,3 @@ CREATE CORTEX SEARCH SERVICE IF NOT EXISTS CONVERSATION_DB.CONVERSATION_ANALYSIS
         SELECT *
         FROM CONVERSATION_DB.CONVERSATION_ANALYSIS.CALL_SCORE_CHUNKS
     );
-
-CREATE OR REPLACE NETWORK RULE symbl_apis_network_rule
-  MODE = EGRESS
-  TYPE = HOST_PORT
-  VALUE_LIST = ('api.symbl.ai', 'api-nebula.symbl.ai');

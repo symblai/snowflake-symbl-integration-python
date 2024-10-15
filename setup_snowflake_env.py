@@ -30,24 +30,25 @@ shutil.copyfile("secrets.toml", "streamlit/.streamlit/secrets.toml")
 
 if install_streamlit_app:
     print("Installing streamlit app to Snowflake...")
-    print("Running sql/install_streamlit_app.sql...")
     conn = snowflake_connection()
     try:
-        with open("sql/install_streamlit_app.sql", "r", encoding='utf-8') as f:
-            for cur in conn.execute_stream(f):
-                for ret in cur:
-                    print(ret)
         secrets = get_secrets()
+        nebula_api_key = 'xxx'
         if 'symbl' in secrets and 'nebula_api_key' in secrets['symbl']:
             nebula_api_key = secrets["symbl"]["nebula_api_key"]
-            print("Creating Nebula API key secret...")
-            cursor = conn.cursor()
-            cursor.execute(
-                f"CREATE OR REPLACE SECRET nebula_api_key TYPE = GENERIC_STRING SECRET_STRING = '{nebula_api_key}'")
-            conn.commit()
-            cursor.close()
+        try:
+            with open("sql/create_symbl_network_integration.sql", "r", encoding='utf-8') as f:
+                for cur in conn.execute_stream(f, params={'nebula_api_key': nebula_api_key,
+                                                          'role': secrets['connections']['snowflake']['role']}):
+                    for ret in cur:
+                        print(ret)
+        except Exception as e:
+            print(f"Error creating Network integration: {e}")
+            print("Nebula Functionality in Chat page will not work.")
+            print("Please create the Network Integration manually using sql/create_symbl_network_integration.sql")
 
-        with open("sql/create_symbl_network_integration.sql", "r", encoding='utf-8') as f:
+        print("Running sql/install_streamlit_app.sql...")
+        with open("sql/install_streamlit_app.sql", "r", encoding='utf-8') as f:
             for cur in conn.execute_stream(f):
                 for ret in cur:
                     print(ret)

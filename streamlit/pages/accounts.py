@@ -1,9 +1,15 @@
+import os
+
 import altair as alt
 import streamlit as st
 
 from data_utils import get_account_criteria_scores, get_opportunity_details
 from utils import get_session
 
+session = get_session()
+if os.environ['HOME'] == '/home/udf':
+    from app import show_top_controls
+    show_top_controls(session)
 
 def accounts(_session):
     details = get_opportunity_details(_session)
@@ -86,8 +92,6 @@ def account_score_criteria_view(_session):
 
     st.altair_chart(chart)
 
-
-session = get_session()
 
 accounts(session)
 account_score_criteria_view(session)

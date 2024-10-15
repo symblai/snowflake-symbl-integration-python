@@ -1,3 +1,4 @@
+import os
 import traceback
 
 import pandas as pd
@@ -8,6 +9,10 @@ from utils import call_nebula, query_cortex_search_service
 from utils import get_session
 
 session = get_session()
+
+if os.environ['HOME'] == '/home/udf':
+    from app import show_top_controls
+    show_top_controls(session)
 
 
 # def default_suggestions():

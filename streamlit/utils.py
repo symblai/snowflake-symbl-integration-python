@@ -17,15 +17,16 @@ try:
         from snowflake.snowpark.context import get_active_session
         import _snowflake
         session = get_active_session()
+
         try:
             NEBULA_API_KEY = _snowflake.get_generic_secret_string('NEBULA_API_KEY')
         except Exception as e:
-            st.error(f"Error in accessing Nebula API key from secrets: {e}")
-
-        try:
-            session.use_schema("CONVERSATION_ANALYSIS")
-        except Exception as e:
-            st.error(f"Error setting schema: {e}")
+            st.toast(f"Error in accessing Nebula API key from secrets: {e}")
+        # st.toast(session.get_current_schema(), icon="🔒")
+        # try:
+        #     session.use_schema("CONVERSATION_ANALYSIS")
+        # except Exception as e:
+        #     st.error(f"Error setting schema: {e}")
     else:
         session = Session.builder.configs({
             "account": st.secrets.connections.snowflake.account,
@@ -47,14 +48,19 @@ except Exception as e:
 
 @st.cache_data(show_spinner="Fetching data...")
 def get_data(query, _session):
-    # print(f"\nExecuting query: \n\n{query}\n")
+
     try:
+        # if env == "/home/udf" and 'FROM ' in query.upper():
+        #     query = query.replace('FROM ', f'FROM {_session.get_current_database()}.CONVERSATION_ANALYSIS.')
+        # print(f"\nExecuting query: \n\n{query}\n")
+        # st.write(f"Executing query: \n\n{query}\n")
         data = _session.sql(query).collect()
         df = pd.DataFrame(data)
     except Exception as e:
-        st.error(f"Error fetching data: {e}")
+        st.toast(f"Error fetching data: {e}", icon="❌")
         df = pd.DataFrame()
     # print(f"\nData fetched: \n{df}\n")
+    # st.write(f"Data fetched: \n{df}\n")
     return df
 
 

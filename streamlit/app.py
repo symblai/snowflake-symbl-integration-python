@@ -1,12 +1,16 @@
-import streamlit as st
+import datetime
+import os
 
+import streamlit as st
 
 from data_utils import get_date_range, get_conversation_stats
 from search import show_search
 from utils import get_session
-
+if os.environ['HOME'] != '/home/udf':
+    st.set_page_config(layout="wide", page_title="Sales Analysis with Cortex and Symbl.ai")
 
 def show_top_controls(_session):
+    st.title("Sales Analysis with Cortex and Symbl.ai")
     date_range = get_date_range(_session)
     if date_range.empty:
         _to = datetime.datetime.now()
@@ -37,20 +41,19 @@ def display(snowflake_session):
     show_top_controls(snowflake_session)
 
 
-st.set_page_config(layout="wide", page_title="Sales Calls Analysis")
-
-# Streamlit title
-st.title("Sales Calls Analysis")
 session = get_session()
 conversation_stats = get_conversation_stats(session).iloc[0]
 
 if int(conversation_stats['COUNT']) <= 0:
     st.markdown("***No conversations found in database.***")
-else:
+
+if os.environ['HOME'] != '/home/udf':
     display(session)
     pg = st.navigation([
-        st.Page("overview.py", title="Overview", default=True),
-        st.Page("reps.py", title="Sales Reps"),
-        st.Page("accounts.py", title="Accounts"),
-        st.Page("chat_bot.py", title="Chat")])
+        st.Page("pages/overview.py", title="Overview", default=True),
+        st.Page("pages/reps.py", title="Sales Reps"),
+        st.Page("pages/accounts.py", title="Accounts"),
+        st.Page("pages/chat_bot.py", title="Chat")])
     pg.run()
+else:
+    st.markdown("### Select the 👈 option to see the analysis.")

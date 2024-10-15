@@ -1,12 +1,18 @@
+import os
+
 import altair as alt
 import streamlit as st
-
-from conversation_view import conversation_view
 from data_utils import get_conversation_stats, get_member_stats, get_trackers_by_stage, get_call_score_criteria_scores, \
     get_conversation_overview, get_entities_stats, get_entities_data, get_trackers_by_call_score
-from utils import get_session, score_colors
+
+from utils import get_session
 
 session = get_session()
+
+if os.environ['HOME'] == '/home/udf':
+    from app import show_top_controls
+
+    show_top_controls(session)
 
 
 def display():
@@ -45,17 +51,17 @@ def display():
     conversation_overview['OVERALL_SENTIMENT'] = conversation_overview['OVERALL_SENTIMENT'].apply(
         lambda x: "Positive" if x >= 0.3 else "Negative" if x <= -0.3 else "Neutral")
 
-    # conversation_summary['URL'] = conversation_summary['CONVERSATION_ID'].apply(lambda x: get_experience_url(x))
-
     def on_conversation_selected():
-        conversation = st.session_state.conversation_summary.selection.rows
-        filtered_df = conversation_overview.iloc[conversation]
-        if len(filtered_df) > 0:
-            st.session_state.conversation_id = filtered_df['CONVERSATION_ID'].values[0]
-            conversation_view()
+        try:
+            from conversation_view import conversation_view
+            conversation = st.session_state.conversation_summary.selection.rows
+            filtered_df = conversation_overview.iloc[conversation]
+            if len(filtered_df) > 0:
+                st.session_state.conversation_id = filtered_df['CONVERSATION_ID'].values[0]
+                conversation_view()
+        except AttributeError:
+            st.toast("Your Streamlit version does not support `st.dialog`", icon="❌")
 
-
-    # conversation_overview = conversation_overview.style.map(score_colors, subset=['CALL_SCORE'])
     st.dataframe(conversation_overview,
                  key="conversation_overview",
                  selection_mode="single-row",
