@@ -38,20 +38,24 @@ if install_streamlit_app:
             nebula_api_key = secrets["symbl"]["nebula_api_key"]
         try:
             with open("sql/create_symbl_network_integration.sql", "r", encoding='utf-8') as f:
-                for cur in conn.execute_stream(f, params={'nebula_api_key': nebula_api_key,
-                                                          'role': secrets['connections']['snowflake']['role']}):
+                for cur in conn.execute_stream(f, params={'nebula_api_key': nebula_api_key}):
                     for ret in cur:
                         print(ret)
         except Exception as e:
             print(f"Error creating Network integration: {e}")
             print("Nebula Functionality in Chat page will not work.")
-            print("Please create the Network Integration manually using sql/create_symbl_network_integration.sql")
+            print("Please create the External Network Integration manually using "
+                  "sql/create_symbl_network_integration.sql")
 
         print("Running sql/install_streamlit_app.sql...")
-        with open("sql/install_streamlit_app.sql", "r", encoding='utf-8') as f:
-            for cur in conn.execute_stream(f):
-                for ret in cur:
-                    print(ret)
+        try:
+            with open("sql/install_streamlit_app.sql", "r", encoding='utf-8') as f:
+                for cur in conn.execute_stream(f):
+                    for ret in cur:
+                        print(ret)
+        except Exception as e:
+            print(f"Error installing streamlit app: {e}")
+            print("If there was error reported during external network integration creation, this error is expected.")
     finally:
         conn.close()
         print("Execution completed.")
