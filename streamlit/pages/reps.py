@@ -74,12 +74,12 @@ with st.container():
 
     st.markdown("**Top Performers**")
     top_perf_df = sales_rep_df.head(5)
-    top_perf_df = top_perf_df.style.applymap(score_colors, subset=['AVG_CALL_SCORE', *score_col_configs.keys()])
+    top_perf_df = top_perf_df.style.map(score_colors, subset=['AVG_CALL_SCORE', *score_col_configs.keys()])
     st.dataframe(top_perf_df, use_container_width=True, hide_index=True,
                  column_config=column_config)
     st.markdown("**Low Performers**")
     low_perf_df = sales_rep_df.tail(5)[::-1]
-    low_perf_df = low_perf_df.style.applymap(score_colors, subset=['AVG_CALL_SCORE', *score_col_configs.keys()])
+    low_perf_df = low_perf_df.style.map(score_colors, subset=['AVG_CALL_SCORE', *score_col_configs.keys()])
     st.dataframe(low_perf_df, use_container_width=True, hide_index=True,
                  column_config=column_config)
     rep_by_score_criteria_view(session)
