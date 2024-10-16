@@ -20,6 +20,8 @@ def show_search():
                     st.session_state.conversation_ids = list(set(_results))
                 except ValueError as e:
                     st.toast("Error occurred while searching. Please try again.")
+        else:
+            st.session_state.conversation_ids = []
 
     st.text_input("Search",
                   key="search",
